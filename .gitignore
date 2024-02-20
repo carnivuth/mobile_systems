@@ -26,11 +26,4 @@ Focus on mobile middle-ware concept
 
 - why the need of a middle-ware
 
-#!.obsidian/app.json
-#!.obsidian/appereance.json
-#!.obsidian/config
-#!.obsidian/community-plugins.json
-#!.obsidian/core-plugins.json
-#!.obsidian/hotkeys.json
-#!.obsidian/graphs.json
-#!.obsidian/plugins/*.json
+.obsidian/workspace.json

@@ -1,4 +1,3 @@
-
 # INTRODUCTION
 
 Focus:  good software engineering practice for  mobile systems development

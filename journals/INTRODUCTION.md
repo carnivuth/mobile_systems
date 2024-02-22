@@ -1,3 +1,4 @@
+
 # INTRODUCTION
 
 Focus:  good software engineering practice for  mobile systems development
@@ -25,3 +26,4 @@ Focus on mobile middle-ware concept
 
 - why the need of a middle-ware
 
+.obsidian/workspace.json

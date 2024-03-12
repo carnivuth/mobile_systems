@@ -3,15 +3,14 @@
 Wireless LAN -> 802.11 small areas like homes
 Wireless man 802.11p vehicle communication
 
-
 Different wireless technologies have different characteristics -> need to make a weighted choice based on what are the system requirements
 
 LORAWAN suitable for machine -> machine communication the idea is that nodes communicate in time intervals before going to sleep, low consumption energy
 
-
 ## ETHERNET PROTOCOL 802.x
 
 in a physically connected network all nodes share the same communication medium, so there is the need to handle collisions
+
 
 ```mermaid
 flowchart LR
@@ -106,5 +105,5 @@ E  <--> B
 end
 ```
 
-In this architecture, no HW infrastructure is required but a lot of communication problems rise up (for example re-transmissions time rise up with the number of nodes), and TCP/IP does perform poorly
+In this architecture, no HW infrastructure is required but a lot of communication problems rise up (for example re-transmissions time increase with the number of nodes), and TCP/IP does perform poorly
 

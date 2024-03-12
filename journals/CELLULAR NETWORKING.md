@@ -68,3 +68,7 @@ The principle goal of this procedure it's service continuity so in this context 
 | PROACTIVE         | Handoff is started before the node exits the coverage area                                                     |
 | HARD              | The handoff procedure does not allow the mobile node to be connected to multiple BSS in the same time interval |
 | SOFT              | The handoff procedure allow the mobile node to be connected to multiple BSS in the same time interval          |
+
+## 5G INFRASTRUCTURE
+
+![](Pasted%20image%2020240312121329.png)

@@ -125,3 +125,12 @@ A <--> D
 ```
 
 In this configuration a node for each net is selected as the gateway that can forward traffic to the other net. This is a possibility allowed by the protocol but it's not implemented for performance reasons
+
+## BLUETOOTH LOW ENERGY BLE
+
+Improvements in energy consumption with the same performances different set of channels (40 2-MHz channels). Within a channel, data is transmitted using Gaussian frequency shift modulation. Bitrate is 1 Mbit/s, and the maximum transmit power is 10 mW
+
+The main difference is in the protocol of discovery and advertisement on the availability for piconets which is based on discovery packet broadcasting
+
+All **BLE** devices implements the generic attribute (GATT) profile
+

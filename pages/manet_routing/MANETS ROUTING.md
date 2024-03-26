@@ -45,7 +45,7 @@ Manet routing is a big challenge cause there are no fixed assumptions that can b
 Manet routing protocols are **REACTIVE** because the nature of the MANET create 
 
 
-## FLOADING 
+## FLOODING (level 0 solution)
 
 Simple method of routing with a lot of stupid assumption that allow to extrapolates the problems in man routing 
 
@@ -68,7 +68,14 @@ e ---> d
 ```
 each node send the packet to all of the nodes in his visibility
 
-In this iteration a lot of problems occours as it is a verry bad performance solution but it has some advantages:
+In this iteration a lot of problems occurs as it is a very bad performance solution but it has some advantages:
 
 - packet are duplicated
-- 
+- the protocol is extremely simple
+- higher reliability due to the fact that multiple paths are discovered
+
+There are a lot of disadvantages of course
+
+- Potentially high overhead
+- potentially low reliability
+

@@ -51,14 +51,14 @@ Simple method of routing with a lot of stupid assumption that allow to extrapola
 
 ```mermaid
 flowchart LR
-a[a]
-b[b]
-c[c]
-d[d]
-e[e]
-f[f]
-g[g]
-h[h]
+a((a))
+b((b))
+c((c))
+d((d))
+e((e))
+f((f))
+g((g))
+h((h))
 a ---> b & c
 b ---> e & f & c
 c ---> f & e

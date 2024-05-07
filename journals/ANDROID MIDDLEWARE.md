@@ -64,3 +64,4 @@ Information can be exchanged between layers in several ways, this needs to be ac
 
 ![](Pasted%20image%2020240430133353.png)
 
+

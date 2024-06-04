@@ -1,8 +1,4 @@
-# WIRELESS COMMUNICATIONS
 
-## LAYER 1
-
-Propagation formulas
 
 - free-space loss: $P_{r}\simeq P_{t}G_{t}G_{r}(\frac{\lambda }{4\pi d})^2$ 
 - plane earth loss: $P_{r}\simeq P_{t}G_{t}G_{r}(\frac{h_{t}h_{r}}{d^2})^2$ 

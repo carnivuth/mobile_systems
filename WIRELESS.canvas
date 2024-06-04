@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"65255926c0315fc1","x":-160,"y":140,"width":400,"height":400,"type":"file","file":"pages/wireless/WIRELESS_CONNECTIVITY_TECHNOLOGIES.md"},
+		{"id":"831125891f8a3985","x":-160,"y":-420,"width":400,"height":400,"type":"file","file":"pages/wireless/WIRELESS_COMMUNICATION.md"},
+		{"id":"7e6d969bfafca6ca","x":-980,"y":120,"width":400,"height":400,"type":"file","file":"pages/wireless/CSMA.md"}
+	],
+	"edges":[
+		{"id":"8564bc9c5b3810f3","fromNode":"831125891f8a3985","fromSide":"bottom","toNode":"65255926c0315fc1","toSide":"top","label":"STANDARD TO CONTROL THE PHYSICAL MEDIUM"},
+		{"id":"09dd04af7cb17dbe","fromNode":"65255926c0315fc1","fromSide":"left","toNode":"7e6d969bfafca6ca","toSide":"right","label":"CARRIER SENSE USED IN CABLED ENVIRONMENTS"}
+	]
+}

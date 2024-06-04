@@ -1,6 +1,6 @@
 # ZIGBEE
 
-Protocol optimized for some vertical domains where [bluetooth](BLUETOOTH.md) fails like
+Protocol optimized for some vertical domains where [bluetooth](BLUETOOTH-TODO.md) fails like
 
 - industrial application
 - home automation and home appliances controls

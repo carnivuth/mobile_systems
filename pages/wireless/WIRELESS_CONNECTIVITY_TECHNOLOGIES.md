@@ -1,11 +1,23 @@
-# WIRELESS PROTOCOL
+# WIRELESS CONNECTIVITY TECHNOLOGIES 
 
-Wireless LAN -> 802.11 small areas like homes
-Wireless man 802.11p vehicle communication
+IEEE defines a section of standards for wireless connectivity technologies at data link layer under the section 802.xx
 
-Different wireless technologies have different characteristics -> need to make a weighted choice based on what are the system requirements
+```mermaid
+flowchart TD
+subgraph higher_layer
+A[802.2]
+B[802.3]
+C[802.5]
+D[802.11]
+end
+subgraph medium_access_control
+E[CSMA/CD]
+F[Token-passing]
+G[CSMA]
+end
+higher_layer ~~~ medium_access_control
+```
 
-LORAWAN suitable for machine -> machine communication the idea is that nodes communicate in time intervals before going to sleep, low consumption energy
 
 ## ETHERNET PROTOCOL 802.x
 
@@ -25,10 +37,6 @@ B --> M
 C --> M
 ```
 
-## CSMA/CD
-
-First solution relies on the collision detection and re-transmission after a random time wait
-
 There are also solution that avoid collisions like token-passing ring that relies on a token being passed between nodes and only the nodes that have the token can transmit, this solution has a lot of overhead due to the token passing case
 
 In Wireless networks there is also the same problem cause the ether is shared among the notes
@@ -46,17 +54,6 @@ end
 
 The wirless protocol is the same as the ethernet ones, CSMA
 
-```mermaid
-flowchart TD
-A{channel is free}
-B[send message]
-C{collection detected}
-D[wait a random time]
-A-->|yes|B
-B-->C
-C-->|yes|D
-D-->A
-```
 
 Due to the nature of the protocol there are no certainties about the communication performances
 
@@ -68,42 +65,12 @@ MACA not avoid collisions of pre data communication or in cases some nodes joins
 
 #### BASE STATION
 
-```mermaid
-flowchart LR
-subgraph net1
-A[ap1]
-C[node1]
-end
-subgraph net2
-B[ap2]
-D[node2]
-end
-C --> A
-D --> B
-E((internet))
-A & B -->  E
-```
 
 This is a classical use case that it's completely handled by the standard TCP/IP stack
 
 In this configuration there are still problems due to nodes movements
 #### AD-HOC P2P
 
-```mermaid
-flowchart LR
-subgraph net
-A[node1]
-B[node2]
-C[node3]
-D[node4]
-E[node5]
-A  <--> B & C
-B  <--> D
-C  <--> D
-D  <--> E
-E  <--> B
-end
-```
 
 In this architecture, no HW infrastructure is required but a lot of communication problems rise up (for example re-transmissions time increase with the number of nodes), and TCP/IP does perform poorly
 

@@ -1,39 +1,32 @@
-# ZIGBEE
+# ZIGBEE (IEEE 802.15.4)
 
-Protocol optimized for some vertical domains where [bluetooth](BLUETOOTH-TODO.md) fails like
+Protocol optimized for some vertical domains IOT oriented where [bluetooth](BLUETOOTH.md) fails like
 
 - industrial application
 - home automation and home appliances controls
 - environmental monitoring
 
+The protocol has several improvements over [BLUETOOTH](BLUETOOTH.md) as:
+
+- higher node limits (up to 65536 nodes)
+- support for full mesh networking
+- better support for real time appliances
+
 ## TOPOLOGIES
 
 ![](Pasted%20image%2020240321144834.png)
 
-Nodes can be of different kinds
+## NODES ROLES
 
-- PAN COORDINATOR main network controller
-- Full function device participates to packets routing
-- Reduced function device
+In a zigbee network a node can play different roles:
 
-### CLUSTER TREE
+- **PAN COORDINATOR** main network controller
+- **Full function device** participates to packets routing
+- **Reduced function device** device with limited capabilities
 
-PAN COORDINATOR is the root of a tree-shaped network in this architecture a non leaf node is a full function device
+## CHANNEL MANAGEMENT
 
-Pan coordinator is the more stressed nodes as the majority of the traffic passes through him
+The zigbee protocol offers to possible solution for physical channel management
 
-### MESH TOPOLOGY
-
-No constraints in the ways that nodes are connected, intermediary nodes are full function nodes
-
-## OPTIONS FOR CHANNEL ACCESS
-
-### NON BEACONED METHOD
-
-wifi approach, CSMA-CA is used in order to retransmit packets in case of collision
-
-### BEACONED METHOD
-
-bluetooth approach, the coordinator syncronize the nodes and transimissions appens at fixed time intervals
-
-usefull when working with sensors
+- [CSMA/CA](CSMA.md#CSMA/CA%20VARIANT)
+- Beacon enabled network where the **PAN COORDINATOR** sends periodic messages, this solution is similar to what [BLUETOOTH](BLUETOOTH.md) does, is better suited for sensors communication

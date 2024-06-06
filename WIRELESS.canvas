@@ -1,11 +1,21 @@
 {
 	"nodes":[
-		{"id":"65255926c0315fc1","x":-160,"y":140,"width":400,"height":400,"type":"file","file":"pages/wireless/WIRELESS_CONNECTIVITY_TECHNOLOGIES.md"},
-		{"id":"831125891f8a3985","x":-160,"y":-420,"width":400,"height":400,"type":"file","file":"pages/wireless/WIRELESS_COMMUNICATION.md"},
-		{"id":"7e6d969bfafca6ca","x":-980,"y":120,"width":400,"height":400,"type":"file","file":"pages/wireless/CSMA.md"}
+		{"id":"831125891f8a3985","type":"file","file":"pages/wireless/WIRELESS_COMMUNICATION.md","x":-160,"y":-420,"width":400,"height":400},
+		{"id":"a4db5fab21bcdb46","type":"file","file":"pages/wireless/WIMAX.md","x":-160,"y":-1080,"width":400,"height":400},
+		{"id":"65255926c0315fc1","type":"file","file":"pages/wireless/MEDIUM_ACCESS_CONTROL.md","x":-160,"y":520,"width":400,"height":400},
+		{"id":"7e6d969bfafca6ca","type":"file","file":"pages/wireless/CSMA.md","x":-1000,"y":520,"width":400,"height":400},
+		{"id":"f3bbfda99a15af97","type":"file","file":"pages/wireless/CELLULAR_NETWORKING.md","x":840,"y":-420,"width":400,"height":400},
+		{"id":"45c9954974b1c379","type":"file","file":"pages/wireless/BLUETOOTH.md","x":880,"y":520,"width":400,"height":400},
+		{"id":"6dd8d40a6fe6c832","type":"file","file":"pages/wireless/ZIGBEE.md","x":1720,"y":520,"width":400,"height":400},
+		{"id":"a1797e1f4d86f8ad","type":"file","file":"pages/wireless/WIFI.md","x":-1200,"y":-420,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"8564bc9c5b3810f3","fromNode":"831125891f8a3985","fromSide":"bottom","toNode":"65255926c0315fc1","toSide":"top","label":"STANDARD TO CONTROL THE PHYSICAL MEDIUM"},
-		{"id":"09dd04af7cb17dbe","fromNode":"65255926c0315fc1","fromSide":"left","toNode":"7e6d969bfafca6ca","toSide":"right","label":"CARRIER SENSE USED IN CABLED ENVIRONMENTS"}
+		{"id":"8564bc9c5b3810f3","fromNode":"831125891f8a3985","fromSide":"bottom","toNode":"65255926c0315fc1","toSide":"top","label":"STANDARDS TO CONTROL \nTHE PHYSICAL MEDIUM"},
+		{"id":"09dd04af7cb17dbe","fromNode":"65255926c0315fc1","fromSide":"left","toNode":"7e6d969bfafca6ca","toSide":"right","label":"PHYSICAL MEDIUM\nACCESS"},
+		{"id":"5a845ac64007ebd2","fromNode":"831125891f8a3985","fromSide":"left","toNode":"a1797e1f4d86f8ad","toSide":"right","label":"WIDESPREAD\nSTANDARD FOR\nLAN COMMUNICATION"},
+		{"id":"b5f3077a875b8c53","fromNode":"831125891f8a3985","fromSide":"top","toNode":"a4db5fab21bcdb46","toSide":"bottom","label":"MAN WIRELESS SOLUTION"},
+		{"id":"32e1d2b057098ecd","fromNode":"831125891f8a3985","fromSide":"right","toNode":"f3bbfda99a15af97","toSide":"left","label":"HOW MOBILITY IS HANDLED \nIN CELLULAR NETWORKS"},
+		{"id":"25394165f67d46aa","fromNode":"831125891f8a3985","fromSide":"bottom","toNode":"45c9954974b1c379","toSide":"top","label":"THE FACTO STANDARD\nFOR PAN COMMUNICATIONS"},
+		{"id":"14d32028b0786582","fromNode":"45c9954974b1c379","fromSide":"right","toNode":"6dd8d40a6fe6c832","toSide":"left","label":"COMPETITOR FOR\nIOT DOMAINS"}
 	]
 }

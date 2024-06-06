@@ -38,3 +38,7 @@ B --sends cts--> A
 so the node **A** sends a request to send packet to **B** and wait for a clear to send reply before start transmitting the data
 
 this solution limits collisions only to the **rts** and **cts** packets reducing the cost of re transmission but increase the overhead because every communication requires an rtc/cts exchange
+
+
+## TOKEN RING 
+

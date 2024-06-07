@@ -1,31 +1,4 @@
-# MANET (MOBILE AD HOC NETWORK)
-
-Manets are network with the following caracteristics
-
-- Created dynamically (on-the-fly) to satisfy needs and reqs that are typically temporary
-- Immediate and highly reconfigurable deployment (NO fixed infrastructure)
-- High “volatility”
-- Mobility, failures/faults, node resources that vary over time
-- Nodes with very differentiated features (heterogeneity)
-- Nodes with limited energy (battery-operated)
-- Any node can play the role of potential router
-- Multi-hop communications
-
-![](Pasted%20image%2020240321154522.png)
-
-Given the nature of MANETS a lot of challenges comes up
-
-- Limited transmission range
-- Broadcast nature of the wireless medium (e.g., hidden terminal)
-- Packet loss due to transmission errors
-- Modifications to routing and established paths due to mobility
-- Packet loss induced by mobility
-- Network partitioning is possibly frequent
-- Energy constraints
-- Easy “snooping” of wireless transmissions (associated security issues)
-
-
-## MANET ROUTING
+# MANET ROUTING
 
 Manet routing is a big challenge cause there are no fixed assumptions that can be made on the network characteristics so a lot of routing protocols where been proposed.
 
@@ -43,7 +16,6 @@ Manet routing is a big challenge cause there are no fixed assumptions that can b
 | **HYBRID**     | combination of the precedents                                                                        |
 
 Manet routing protocols are **REACTIVE** because the nature of the MANET create 
-
 
 ## FLOODING (level 0 solution)
 
@@ -66,7 +38,10 @@ d ---> g & h
 f ---> d 
 e ---> d 
 ```
+
 each node send the packet to all of the nodes in his visibility
+
+### ADVANTAGES
 
 In this iteration a lot of problems occurs as it is a very bad performance solution but it has some advantages:
 
@@ -74,8 +49,9 @@ In this iteration a lot of problems occurs as it is a very bad performance solut
 - the protocol is extremely simple
 - higher reliability due to the fact that multiple paths are discovered
 
+### DISADVANTAGES
+
 There are a lot of disadvantages of course
 
-- Potentially high overhead
-- potentially low reliability
-
+- high overhead
+- low reliability

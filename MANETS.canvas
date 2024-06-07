@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"6dc944382b423534","type":"file","file":"pages/manets/MANETS.md","x":-160,"y":-1520,"width":400,"height":400},
+		{"id":"10668d34946ace07","type":"file","file":"pages/manets/MANETS_ROUTING.md","x":-160,"y":-880,"width":400,"height":400},
+		{"id":"25b7e33d5a7ffc90","type":"file","file":"pages/manets/DINAMIC_SOURCE_ROUTING.md","x":-800,"y":-320,"width":400,"height":400},
+		{"id":"5a2b46411cdf6ea9","type":"file","file":"pages/manets/ADHOC_ON_DEMAND_DISTANCE_VECTOR.md","x":480,"y":-320,"width":400,"height":400},
+		{"id":"2bc2c6182df749ea","x":680,"y":-1520,"width":400,"height":400,"type":"file","file":"pages/manets/WIFI_DIRECT.md"},
+		{"id":"68ea79dcbda2ffd4","type":"file","file":"pages/manets/TEMPORARY_ORDERED_ROUTING_ALGORITHM.md","x":-1440,"y":-520,"width":400,"height":400},
+		{"id":"c4157e77b7867d32","type":"file","file":"pages/manets/GREEDY_PERIMETER_STATELESS_ROUTING.md","x":-1440,"y":-1120,"width":400,"height":400},
+		{"id":"4319bcc8a1e881c4","x":880,"y":-880,"width":400,"height":400,"type":"file","file":"pages/manets/CLUSTERING.md"}
+	],
+	"edges":[
+		{"id":"7fa1d616961d9873","fromNode":"25b7e33d5a7ffc90","fromSide":"right","toNode":"5a2b46411cdf6ea9","toSide":"left","label":"IMPROVEMENTS FOR THE\nVARIABLE SIZED HEADER"},
+		{"id":"077e7108df1d5951","fromNode":"6dc944382b423534","fromSide":"bottom","toNode":"10668d34946ace07","toSide":"top","label":"HOW TO ROUTE \nIN MANETS"},
+		{"id":"6d111215bf65a30c","fromNode":"10668d34946ace07","fromSide":"bottom","toNode":"25b7e33d5a7ffc90","toSide":"top"},
+		{"id":"8b75cee9094b597a","fromNode":"10668d34946ace07","fromSide":"bottom","toNode":"5a2b46411cdf6ea9","toSide":"top"},
+		{"id":"a27da6eba6171bbe","fromNode":"10668d34946ace07","fromSide":"left","toNode":"c4157e77b7867d32","toSide":"right","label":"POSSIBLE POSITION\nBASED ROUTING"},
+		{"id":"88a26c606e3c2afd","fromNode":"10668d34946ace07","fromSide":"left","toNode":"68ea79dcbda2ffd4","toSide":"right","label":"TEMPORAL BASED\n ROUTING SOLUTION"},
+		{"id":"0b4d34cb803a138b","fromNode":"6dc944382b423534","fromSide":"right","toNode":"2bc2c6182df749ea","toSide":"left","label":"WIFI PROPOSAL\nFOR AD HOC NETWORKS "},
+		{"id":"c373175184b80d70","fromNode":"10668d34946ace07","fromSide":"right","toNode":"4319bcc8a1e881c4","toSide":"left","label":"CLUSTER BASED\nSOLUTIONS"}
+	]
+}

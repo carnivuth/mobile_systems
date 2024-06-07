@@ -1,10 +1,13 @@
-# DYNAMIC SOURCE ROUTING
+# DINAMIC SOURCE ROUTING
 
-The source calculate the paths when starting to send a packet, to achieve that it exploits flooding
-
-![](Pasted%20image%2020240326121510.png)
+DSR is a  reactive routing protocol that exploids floading to get routing informations
+the source calculate the paths when starting to send a packet, to achieve that it exploits flooding
 
 ## ROUTE DISCOVERY
+
+Before starting a communication the source start a route discovery process to find the route to the destination
+
+![](Pasted%20image%2020240326121510.png)
 
 ```mermaid
 flowchart TD

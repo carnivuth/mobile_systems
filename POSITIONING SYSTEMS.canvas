@@ -1,11 +1,27 @@
 {
 	"nodes":[
-		{"id":"a0f0deb57e9e087a","x":-100,"y":200,"width":250,"height":80,"type":"file","file":"pages/posSys/tecnicheDiBase.md"},
+		{"id":"486f031c20ab4bd6","x":161,"y":794,"width":250,"height":60,"type":"file","file":"pages/posSys/TDoA.md"},
+		{"id":"015de3c5fd2b14bd","type":"file","file":"pages/posSys/sceneAnalysis.md","x":533,"y":459,"width":250,"height":60},
+		{"id":"a0f0deb57e9e087a","type":"file","file":"pages/posSys/tecnicheDiBase.md","x":-100,"y":200,"width":250,"height":80},
 		{"id":"d42127bb0373ad71","type":"file","file":"pages/posSys/PosSys_Main.md","x":-100,"y":-60,"width":250,"height":160},
-		{"id":"be2893a36462f721","type":"file","file":"pages/posSys/tipologie.md","x":320,"y":-12,"width":360,"height":65}
+		{"id":"be2893a36462f721","type":"file","file":"pages/posSys/tipologie.md","x":320,"y":-12,"width":360,"height":65},
+		{"id":"f33550b5a499f518","type":"file","file":"pages/posSys/angulation.md","x":220,"y":467,"width":250,"height":60},
+		{"id":"a59cd56c4921374b","type":"file","file":"pages/posSys/proximity.md","x":346,"y":293,"width":250,"height":60},
+		{"id":"5c3d104fde506eb9","type":"file","file":"pages/posSys/lateration.md","x":-399,"y":407,"width":299,"height":90},
+		{"id":"63e8f86e4af9e2c2","type":"file","file":"pages/posSys/distanceComp.md","x":-135,"y":600,"width":320,"height":80},
+		{"id":"30a94c2905059b97","x":-377,"y":783,"width":250,"height":60,"type":"file","file":"pages/posSys/ToA.md"},
+		{"id":"d03258b39310a240","x":-106,"y":912,"width":250,"height":60,"type":"file","file":"pages/posSys/RSSI.md"}
 	],
 	"edges":[
 		{"id":"0412869682657606","fromNode":"d42127bb0373ad71","fromSide":"right","toNode":"be2893a36462f721","toSide":"left"},
-		{"id":"c7a8df75817b7e44","fromNode":"d42127bb0373ad71","fromSide":"bottom","toNode":"a0f0deb57e9e087a","toSide":"top"}
+		{"id":"c7a8df75817b7e44","fromNode":"d42127bb0373ad71","fromSide":"bottom","toNode":"a0f0deb57e9e087a","toSide":"top"},
+		{"id":"5f5ec544f604fd24","fromNode":"a0f0deb57e9e087a","fromSide":"bottom","toNode":"5c3d104fde506eb9","toSide":"top"},
+		{"id":"7d36596f940be1c6","fromNode":"a0f0deb57e9e087a","fromSide":"bottom","toNode":"63e8f86e4af9e2c2","toSide":"top"},
+		{"id":"2f987c3cc7a79d95","fromNode":"a0f0deb57e9e087a","fromSide":"bottom","toNode":"f33550b5a499f518","toSide":"top"},
+		{"id":"ec2abb916e531de8","fromNode":"a0f0deb57e9e087a","fromSide":"bottom","toNode":"a59cd56c4921374b","toSide":"top"},
+		{"id":"0c41c84d26f863ad","fromNode":"a0f0deb57e9e087a","fromSide":"bottom","toNode":"015de3c5fd2b14bd","toSide":"top"},
+		{"id":"e4aca788b39c54f0","fromNode":"63e8f86e4af9e2c2","fromSide":"bottom","toNode":"30a94c2905059b97","toSide":"top"},
+		{"id":"61b75bfaab36507a","fromNode":"63e8f86e4af9e2c2","fromSide":"bottom","toNode":"d03258b39310a240","toSide":"top"},
+		{"id":"b93d7e745d142a6d","fromNode":"63e8f86e4af9e2c2","fromSide":"bottom","toNode":"486f031c20ab4bd6","toSide":"top"}
 	]
 }

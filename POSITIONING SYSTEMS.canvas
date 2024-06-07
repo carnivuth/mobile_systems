@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"486f031c20ab4bd6","x":161,"y":794,"width":250,"height":60,"type":"file","file":"pages/posSys/TDoA.md"},
+		{"id":"486f031c20ab4bd6","type":"file","file":"pages/posSys/TDoA.md","x":161,"y":794,"width":250,"height":60},
 		{"id":"015de3c5fd2b14bd","type":"file","file":"pages/posSys/sceneAnalysis.md","x":533,"y":459,"width":250,"height":60},
 		{"id":"a0f0deb57e9e087a","type":"file","file":"pages/posSys/tecnicheDiBase.md","x":-100,"y":200,"width":250,"height":80},
 		{"id":"d42127bb0373ad71","type":"file","file":"pages/posSys/PosSys_Main.md","x":-100,"y":-60,"width":250,"height":160},
@@ -9,8 +9,8 @@
 		{"id":"a59cd56c4921374b","type":"file","file":"pages/posSys/proximity.md","x":346,"y":293,"width":250,"height":60},
 		{"id":"5c3d104fde506eb9","type":"file","file":"pages/posSys/lateration.md","x":-399,"y":407,"width":299,"height":90},
 		{"id":"63e8f86e4af9e2c2","type":"file","file":"pages/posSys/distanceComp.md","x":-135,"y":600,"width":320,"height":80},
-		{"id":"30a94c2905059b97","x":-377,"y":783,"width":250,"height":60,"type":"file","file":"pages/posSys/ToA.md"},
-		{"id":"d03258b39310a240","x":-106,"y":912,"width":250,"height":60,"type":"file","file":"pages/posSys/RSSI.md"}
+		{"id":"30a94c2905059b97","type":"file","file":"pages/posSys/ToA.md","x":-377,"y":783,"width":250,"height":60},
+		{"id":"d03258b39310a240","type":"file","file":"pages/posSys/RSSI.md","x":-106,"y":912,"width":250,"height":88}
 	],
 	"edges":[
 		{"id":"0412869682657606","fromNode":"d42127bb0373ad71","fromSide":"right","toNode":"be2893a36462f721","toSide":"left"},

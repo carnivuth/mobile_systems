@@ -2,10 +2,14 @@
 	"nodes":[
 		{"id":"76afe503042c2850","type":"text","text":"# POSITIONING SYSTEMS","x":77,"y":-520,"width":268,"height":84},
 		{"id":"e5bc83ba7a033e41","type":"file","file":"pages/positioning_systems/TAXONOMY.md","x":720,"y":-680,"width":400,"height":400},
-		{"id":"ce36fbd210f6a6d5","type":"file","file":"pages/positioning_systems/BASE_TECHNIQUES.md","x":11,"y":-200,"width":400,"height":400}
+		{"id":"d2d9ac9fb700c713","type":"file","file":"pages/positioning_systems/MANET_POSITIONING_SYSTEMS.md","x":-780,"y":-678,"width":400,"height":400},
+		{"id":"7c30764d0fb06a93","x":680,"y":80,"width":400,"height":400,"type":"file","file":"pages/positioning_systems/GLOBAL_POSITIONING_SYSTEM.md"},
+		{"id":"ce36fbd210f6a6d5","type":"file","file":"pages/positioning_systems/BASE_TECHNIQUES.md","x":11,"y":-1220,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"705061ad83a8acaa","fromNode":"76afe503042c2850","fromSide":"right","toNode":"e5bc83ba7a033e41","toSide":"left","label":"HOW THEY ARE\nCLASSIFIED"},
-		{"id":"46b680a298a7cc0b","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"ce36fbd210f6a6d5","toSide":"top","label":"HOW TO COMPUTE\nPOSITION"}
+		{"id":"46b680a298a7cc0b","fromNode":"76afe503042c2850","fromSide":"top","toNode":"ce36fbd210f6a6d5","toSide":"bottom","label":"HOW TO COMPUTE\nPOSITION"},
+		{"id":"1cb911f1fd838636","fromNode":"76afe503042c2850","fromSide":"left","toNode":"d2d9ac9fb700c713","toSide":"right","label":"POSITIONING\nIN MANETS"},
+		{"id":"bae16b207251082e","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"7c30764d0fb06a93","toSide":"top","label":"STANDARD FOR \nABSOLUTE PHYSICAL OUTDOOR \nPOSITIONING"}
 	]
 }

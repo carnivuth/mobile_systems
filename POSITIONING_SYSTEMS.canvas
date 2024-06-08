@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"76afe503042c2850","type":"text","text":"# POSITIONING SYSTEMS","x":77,"y":-520,"width":268,"height":84},
+		{"id":"e5bc83ba7a033e41","type":"file","file":"pages/positioning_systems/TAXONOMY.md","x":720,"y":-680,"width":400,"height":400},
+		{"id":"ce36fbd210f6a6d5","type":"file","file":"pages/positioning_systems/BASE_TECHNIQUES.md","x":11,"y":-200,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"705061ad83a8acaa","fromNode":"76afe503042c2850","fromSide":"right","toNode":"e5bc83ba7a033e41","toSide":"left","label":"HOW THEY ARE\nCLASSIFIED"},
+		{"id":"46b680a298a7cc0b","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"ce36fbd210f6a6d5","toSide":"top","label":"HOW TO COMPUTE\nPOSITION"}
+	]
+}

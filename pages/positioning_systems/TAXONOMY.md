@@ -11,7 +11,17 @@ Positioning systems can be classified in different categories
 | **CENTRALIZED**   | one nodes computes positions of the other nodes            |
 | **DECENTRALIZED** | each nodes compute is own position                         |
 
-The deployment environment dictates what feature is requested from the positioning system together with  application requirements and user constraints
+## CHARACTERISTICS
+
+There are several characteristics to aim for a positioning system
+
+- **ACCURACY** the error range of a measurements 
+- **PRECISION** the trust degree of a measurements
+- **SCALABILITY** how much the positioning system can handle in terms of area of coverage and number of nodes
+- **COSTS** cost of maintenance deployment time, client capabilities
+- **LIMITATIONS** deployment environment that can host the positioning system (*e.g. indoor/outdoor*)
+
+The deployment dictates what feature is requested from the positioning system together with  application requirements and user constraints
 
 ```mermaid
 flowchart LR

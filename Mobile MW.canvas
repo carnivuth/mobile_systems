@@ -22,11 +22,11 @@
 		{"id":"b80b6619e377e8af","type":"file","file":"pages/MobileMw/calibrazione.md","x":1020,"y":-780,"width":305,"height":80},
 		{"id":"04d35777ec0b2810","type":"file","file":"pages/MobileMw/versoAlto.md","x":88,"y":-860,"width":250,"height":120},
 		{"id":"c63b19430e30fffa","type":"file","file":"pages/MobileMw/accoppiamento.md","x":846,"y":-860,"width":274,"height":50},
-		{"id":"127866d06dbb2350","type":"file","file":"pages/caching.md","x":1560,"y":-585,"width":217,"height":50},
-		{"id":"2dc29f6ff5b8466b","type":"file","file":"pages/sessTok.md","x":1528,"y":-700,"width":292,"height":50},
+		{"id":"127866d06dbb2350","type":"file","file":"pages/MobileMw/caching.md","x":1560,"y":-585,"width":217,"height":50},
+		{"id":"2dc29f6ff5b8466b","type":"file","file":"pages/MobileMw/sessTok.md","x":1528,"y":-700,"width":292,"height":50},
 		{"id":"d1f1a9756d177be1","type":"file","file":"pages/MobileMw/merging.md","x":641,"y":-1000,"width":342,"height":80},
-		{"id":"dc6f64ebf5e4d95a","type":"file","file":"pages/eager.md","x":1528,"y":-500,"width":352,"height":60},
-		{"id":"565a318384d9ede1","type":"file","file":"pages/lazy.md","x":1544,"y":-380,"width":250,"height":60}
+		{"id":"dc6f64ebf5e4d95a","type":"file","file":"pages/MobileMw/eager.md","x":1528,"y":-500,"width":352,"height":60},
+		{"id":"565a318384d9ede1","type":"file","file":"pages/MobileMw/lazy.md","x":1544,"y":-380,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"6c62f656b5f5d3f5","fromNode":"989a407d5bcf64ea","fromSide":"top","toNode":"74ea016b8440957a","toSide":"bottom"},

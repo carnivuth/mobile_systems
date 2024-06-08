@@ -15,7 +15,6 @@
 		{"id":"3eca20cc77e3b14d","type":"file","file":"pages/MobileMw/patternMobile.md","x":808,"y":112,"width":265,"height":75,"color":"4"},
 		{"id":"989a407d5bcf64ea","type":"file","file":"pages/MobileMw/Mobile Middleware.md","x":200,"y":-20,"width":326,"height":89,"color":"2"},
 		{"id":"74ea016b8440957a","type":"text","text":"principi","x":238,"y":-156,"width":250,"height":60},
-<<<<<<< Updated upstream
 		{"id":"5ec1f5f3d91c4f34","type":"file","file":"pages/MobileMw/patternArch.md","x":630,"y":-170,"width":310,"height":89},
 		{"id":"fff3771e1c64756b","type":"file","file":"pages/MobileMw/RemoteFacade.md","x":1778,"y":-80,"width":302,"height":60},
 		{"id":"9bbb7559f531b8cd","type":"file","file":"pages/MobileMw/DataTransferObj.md","x":1777,"y":30,"width":303,"height":82},
@@ -37,26 +36,7 @@
 		{"id":"d1f1a9756d177be1","type":"file","file":"pages/MobileMw/merging.md","x":641,"y":-1000,"width":342,"height":80},
 		{"id":"dc6f64ebf5e4d95a","type":"file","file":"pages/MobileMw/eager.md","x":1528,"y":-500,"width":352,"height":60},
 		{"id":"565a318384d9ede1","type":"file","file":"pages/MobileMw/lazy.md","x":1544,"y":-380,"width":250,"height":60}
-=======
-		{"id":"5ec1f5f3d91c4f34","type":"file","file":"pages/MobileMw/patternArch.md","x":630,"y":-170,"width":310,"height":89,"color":"4"},
-		{"id":"6c476f74f7ba7518","type":"file","file":"pages/MobileMw/connFact.md","x":342,"y":502,"width":280,"height":88,"color":"5"},
-		{"id":"024a95b09aba9d0e","type":"file","file":"pages/MobileMw/multiplexedConn.md","x":774,"y":502,"width":272,"height":92,"color":"5"},
-		{"id":"34b84d71d837daee","type":"file","file":"pages/MobileMw/meccanismiSync.md","x":2259,"y":-537,"width":261,"height":74,"color":"#434503"},
-		{"id":"996fa8631420323e","type":"file","file":"pages/MobileMw/stateTransfer.md","x":1767,"y":-420,"width":318,"height":60,"color":"#434503"},
-		{"id":"25cb74f17e16f742","type":"file","file":"pages/MobileMw/esempiSynch.md","x":2259,"y":-675,"width":250,"height":60,"color":"#434503"},
-		{"id":"11a89f62f793fca9","type":"file","file":"pages/MobileMw/AltoBasso.md","x":453,"y":-1120,"width":334,"height":70,"color":"3"},
-		{"id":"fcb7d81eef4b1fd9","type":"file","file":"pages/MobileMw/clientInit.md","x":1160,"y":503,"width":250,"height":87,"color":"5"},
-		{"id":"fff3771e1c64756b","type":"file","file":"pages/MobileMw/RemoteFacade.md","x":1778,"y":-80,"width":302,"height":60,"color":"6"},
-		{"id":"9bbb7559f531b8cd","type":"file","file":"pages/MobileMw/DataTransferObj.md","x":1777,"y":30,"width":303,"height":82,"color":"6"},
-		{"id":"98d811bc1f49b52b","type":"file","file":"pages/MobileMw/observer.md","x":1778,"y":265,"width":302,"height":60,"color":"6"},
-		{"id":"4007005ca155b501","type":"file","file":"pages/MobileMw/remoteProxy.md","x":1778,"y":149,"width":302,"height":60,"color":"6"},
-		{"id":"672bf8d8d48d79e4","type":"file","file":"pages/MobileMw/crossLayering.md","x":488,"y":-600,"width":264,"height":75,"color":"4"},
-		{"id":"d1f1a9756d177be1","type":"file","file":"pages/MobileMw/merging.md","x":641,"y":-1000,"width":342,"height":80,"color":"3"},
-		{"id":"880dcd2806f13016","type":"file","file":"pages/MobileMw/principi SoA.md","x":660,"y":-360,"width":250,"height":50,"color":"4"},
-		{"id":"b80b6619e377e8af","type":"file","file":"pages/MobileMw/calibrazione.md","x":1020,"y":-780,"width":305,"height":80,"color":"3"},
-		{"id":"c63b19430e30fffa","type":"file","file":"pages/MobileMw/accoppiamento.md","x":846,"y":-860,"width":274,"height":50,"color":"3"}
->>>>>>> Stashed changes
-	],
+			],
 	"edges":[
 		{"id":"6c62f656b5f5d3f5","fromNode":"989a407d5bcf64ea","fromSide":"top","toNode":"74ea016b8440957a","toSide":"bottom"},
 		{"id":"0ff62e9496e9ef53","fromNode":"74ea016b8440957a","fromSide":"top","toNode":"a3e209bf4047fc62","toSide":"bottom"},

@@ -13,8 +13,8 @@ Il ***==mobile middleware==*** si pone come obiettivi:
 - adattabilità;
 - scalabilità;
 - supporto all'eterogeneità;
-- condivisione delle risorse;ù
-- visibilità delle condizioni di esecuzione ai livelli inferiori, perché nel mobile MW i livelli sono collegati in termini di coordinazione e visibilità (tieni conto che nel MW in OSI i livelli sono separati).
+- condivisione delle risorse;
+- visibilità delle condizioni di esecuzione ai livelli inferiori, perché nel mobile MW i livelli sono collegati in termini di coordinazione e visibilità (mentre nel MW in OSI i livelli sono separati).
 
 Inoltre, c'è la necessità di effettuare *decoupling in space & time* per via delle variazioni dinamiche del contesto, dovute alla mobilità stessa dei nodi. A questo scopo si utilizzano dei ==*proxy*==
 

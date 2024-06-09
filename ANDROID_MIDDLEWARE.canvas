@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"ece2c0de67cfa543","type":"file","file":"pages/android/init_android.md","x":-31,"y":-1443,"width":400,"height":400},
+		{"id":"70ec85c8fc5a34c6","x":48,"y":-1919,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"3f0fa541c4899db9","fromNode":"ece2c0de67cfa543","fromSide":"top","toNode":"70ec85c8fc5a34c6","toSide":"bottom","label":"KERNEL LAYER"}
+	]
+}

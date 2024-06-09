@@ -13,7 +13,7 @@ F[foreign\n agent]
 G[foreign\n agent]
 H[foreign\n agent]
 I[foreign\n agent]
-J[foreign\n agent]
+J[mobile\n node]
 A & C & D --> B
 E & F & G --> C
 H & I --> D

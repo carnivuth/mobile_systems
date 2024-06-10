@@ -1,6 +1,7 @@
 # CICLO DI VITA DELLE ACTIVITY
 
-Ci sono molte *activity* simmultaneamente in esecuzione, ma quella **attiva** (`RUNNING`) è solo quella con cui sta interagendo l'utente.
+==Ci sono molte *activity* simmultaneamente in esecuzione, ma quella **attiva** (`RUNNING`) è solo quella con cui sta interagendo l'utente.==
+
 Quando si avvia un'app, parte il lifecycle management e Android invoca i metodi `OnCreate()` e `OnStart()`: ora l'activity è in stato di `RUNNING`. Mentre è in tale stato, essa attende un input da parte dell'utente.
 L'activity può essere messa in pausa tramite il metodo `OnPause()`: non è attiva, ma è visibile in primo piano (a finestra ridotta). Il thread che eseguiva tale activity non viene più utilizzato da essa e passa ad un'altra activity, quella attualmente in `RUNNING`.
 Inoltre, può essere è `STOPPED` (`OnStop()`): non è né attiva, né visibile. Prima di mettere in pausa l'activity, possiamo salvarne lo stato in un contenitore, detto **Bundle**, col metodo `OnSaveInstaceState(Bundle)`. Per ripristinare lo stato dell'activity quando viene rimessa in running (`OnResume()`), si usa il metodo `OnRestoreInstanceState(Bundle)`.

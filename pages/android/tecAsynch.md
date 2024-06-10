@@ -36,13 +36,13 @@ Limitazioni:
 
 #### 3) Thread
 
-Come i normali thread in Java, MA non possono interagire sugli oggetti dell'interfaccia utente, poiché il toolkit UI non è thread-safe. Quando si è progettato il sistema Android, si è pensato di avere una sola Activity in stato di `RUNNING`; quindi, non è stata implementata la modifica/l'aggiornamento concorrente della UI.
+Come i normali thread in Java, MA **non possono interagire sugli oggetti dell'interfaccia utente**, poiché il toolkit UI non è thread-safe. Quando si è progettato il sistema Android, si è pensato di avere una sola Activity in stato di `RUNNING`; quindi, non è stata implementata la modifica/l'aggiornamento concorrente della UI.
 
 I thread non possono essere fermati con i metodi `destroy()` o `stop()`, ma con opportuni metodi in base alle circostanze: `interrupt()` o `join()`.
 
 Esistono **due metodi** per avere un thread che esegue il codice di un'app:
-1) fornire una nuova classe `Thread` e sovrascrivere il suo metodo `run()`;
-2) fornire una nuova istanza di `Thread` con un obj `Runnable` durante la sua esecuzione.
+1) fornire una **nuova classe `Thread`** e sovrascrivere il suo metodo `run()`;
+2) fornire una **nuova istanza di `Thread`** con un oggetto `Runnable` durante la sua esecuzione.
 
 In entrambi i casi, si chiama esplicitamente il metodo `start()` per eseguire il thread.
 
@@ -65,8 +65,8 @@ Tre parametri da passare agli AsyncTask:
 - **Progress**: unità di misura della barra di progresso
 - **Result**: tipo di risultato del calcolo fatto in background.
 
-Quattro metodi di callback per il lifecycle mgmt degli AsyncTask:
+Quattro **metodi di callback** per il lifecycle mgmt degli AsyncTask:
 -  `onPreExecute`: eseguito dal thread UI (quindi può modificare la UI) dopo l'avvio dell'AsyncTask, per prepararlo all'esecuzione delle operazioni. 
-- `doInBackground(Params ...)`: è invocato da un thread in background (che opera in // col thread UI; quindi, non può aggiornare la UI) dopo onPreExecute, su cui esegue la logica applicativa.
+- `doInBackground(Params ...)`: è invocato dopo `onPreExecute` da un thread in background (che opera in // col thread UI; quindi, non può aggiornare la UI), su cui esegue la logica applicativa.
 - `onProgressUpdate(Progress ...)`: è invocato dal thread UI per aggiornare l'andamento dell'AsyncTask. Può modificare la UI (es: mostra progress bar).
 - `onPostExecute(Result ...)`: invocato dal thread UI per ottenere i risultati e rilasciare le risorse allocate all'AsyncTask.

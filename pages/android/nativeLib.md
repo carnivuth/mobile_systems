@@ -11,5 +11,5 @@ La Dalvik VM è *registry-based*, ovvero sfrutta l'architettura ARM, a differenz
   
   Le prime hanno una maggiore portabilità, mentre le seconde sono più performanti in termini di velocità di esecuzione e consumo di risorse.
 
-La Dalvik VM interpreta ed esegue i file **dex**, ottenuti con la trasformazione dei file di classe, per ridurre del 30% le istruzioni necessarie e migliorare le performance a runtime. Infine, fornisce supporto alla *garbage collection*
+La Dalvik VM interpreta ed esegue i file **dex**, ottenuti con la trasformazione dei file di classe, per ridurre del 30% le istruzioni necessarie e migliorare le performance a runtime. Infine, fornisce supporto alla *garbage collection*.
 Da Android Lollipop è stata sostituita da ART.

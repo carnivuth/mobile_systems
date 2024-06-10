@@ -2,7 +2,7 @@
 
 Usato per la programmazione intelligente dei task pesanti in background.
 È basato su **condizioni** ed è molto più efficiente di un AlarmManager. 
-Inoltre, Android raggruppa assieme gli scheduling dei task per minimizzare il consumo della batteria.
+Inoltre, Android **raggruppa assieme gli scheduling dei task** per **minimizzare il consumo** della batteria.
 
 Si ha a disposizione:
 - **JobService**: servizio in cui viene avviato il task. Gira sul main thread e richiede l'override di:

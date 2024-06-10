@@ -1,6 +1,6 @@
 # CONNESSIONE A INTERNET
 
-Perché un'applicazione Android possa connettersi ad Internet o per effettuare controlli sullo stato di rete, è necessario dichiarare i relativi permessi nel manifest.
+Perché un'applicazione Android possa connettersi ad Internet o per effettuare controlli sullo stato di rete, è necessario **dichiarare i relativi permessi nel manifest**.
 
 Ci si connette a Internet tramite il `ConnectivityManager`, che risponde alle domande sullo stato di rete e notifica alle app quando la connettività cambia.
 Il `NetworkInfo` descrive lo stato di una connessione, ad esempio Mobile o WiFi.
@@ -17,7 +17,7 @@ In ogni caso, nei task in background dobbiamo:
 
 **Creazione di connessioni di rete**
 Si può:
-- Usare `HttpURLConnection`, che va eseguito su un thread separato e richiede `InputStream` e try/catch.
+- Usare `HttpURLConnection`, che va eseguito su un thread separato e richiede l'istanziazione di un `InputStream`.
 
 ![](Pasted%20image%2020240610151231.png)
 
@@ -32,7 +32,7 @@ L'**interfaccia radio** può operare:
 - *bassa potenza* --> utilizza il 50% di energia in meno;
 - *standby* --> minimo consumo di energia, nessuna connessione attiva.
 
-Android cerca di **impacchettare i dati**, facendo il **prefetch dei dati**, cioè scaricando tutti quelli di cui si ha *probabilmente* bisogno in un **singolo burst alla max velocità**:
+Android cerca di **impacchettare i dati**, facendone il **prefetch**, cioè scaricando tutti i dati di cui si ha *probabilmente* bisogno in un **singolo burst alla max velocità**:
 - meno trasferimenti;
 - consumo energetico ridotto, perché l'interfaccia rimane per più tempo in idle;
 - meno latenza.

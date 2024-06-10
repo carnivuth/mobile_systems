@@ -1,9 +1,25 @@
 {
 	"nodes":[
+		{"id":"eeefa4ec5e1c3a6b","type":"file","file":"pages/android/activity_lifecycle.md","x":1451,"y":-1598,"width":250,"height":238},
 		{"id":"ece2c0de67cfa543","type":"file","file":"pages/android/init_android.md","x":-31,"y":-1443,"width":400,"height":400},
-		{"id":"70ec85c8fc5a34c6","x":48,"y":-1919,"width":250,"height":60,"type":"text","text":""}
+		{"id":"75649368d9d85fa5","type":"file","file":"pages/android/kernel.md","x":27,"y":-1880,"width":285,"height":209},
+		{"id":"fc42121f89c9a00d","type":"file","file":"pages/android/wakelock.md","x":-281,"y":-2160,"width":250,"height":206},
+		{"id":"9515b6dc26be6889","type":"file","file":"pages/android/nativeLib.md","x":560,"y":-1880,"width":250,"height":208},
+		{"id":"8a41e49b38c2f414","type":"file","file":"pages/android/appFram.md","x":960,"y":-1340,"width":250,"height":195},
+		{"id":"6d41b61949471846","type":"file","file":"pages/android/task.md","x":1880,"y":-1861,"width":250,"height":171},
+		{"id":"81e6d34bc3b49e59","x":1201,"y":-1043,"width":250,"height":185,"type":"file","file":"pages/scheduling.md"},
+		{"id":"a750a4763451c196","x":685,"y":-950,"width":250,"height":175,"type":"file","file":"pages/threading.md"},
+		{"id":"bd6fd9884647768c","x":47,"y":-735,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
-		{"id":"3f0fa541c4899db9","fromNode":"ece2c0de67cfa543","fromSide":"top","toNode":"70ec85c8fc5a34c6","toSide":"bottom","label":"KERNEL LAYER"}
+		{"id":"ab2eea580eb3e5d5","fromNode":"ece2c0de67cfa543","fromSide":"top","toNode":"75649368d9d85fa5","toSide":"bottom","label":"Kernel layer"},
+		{"id":"8dec65c81f15ad6c","fromNode":"75649368d9d85fa5","fromSide":"left","toNode":"fc42121f89c9a00d","toSide":"bottom"},
+		{"id":"8f337e13d7bc1bd2","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"9515b6dc26be6889","toSide":"bottom","label":"Librerie Native\n&\nDalvik VM"},
+		{"id":"a875c915733b4578","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"8a41e49b38c2f414","toSide":"left","label":"Application\nFramework"},
+		{"id":"f2b52e551d2f6027","fromNode":"8a41e49b38c2f414","fromSide":"right","toNode":"eeefa4ec5e1c3a6b","toSide":"left","label":"Activity"},
+		{"id":"70d597d9b7c5613b","fromNode":"eeefa4ec5e1c3a6b","fromSide":"right","toNode":"6d41b61949471846","toSide":"bottom","label":"activity gestite da"},
+		{"id":"d414317fccc91059","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"a750a4763451c196","toSide":"left","label":"Threading \nin Android"},
+		{"id":"dfef0137912254a1","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"81e6d34bc3b49e59","toSide":"left","label":"Scheduling"},
+		{"id":"c3de8002c914bc6f","fromNode":"ece2c0de67cfa543","fromSide":"bottom","toNode":"bd6fd9884647768c","toSide":"top"}
 	]
 }

@@ -3,8 +3,8 @@
 Composto da 4 componenti principali:
 1) **Activity**: ogni azione che un utente può compiere attraverso un'interfaccia grafica (di solito corrisponde ad una singola schermata). Un'applicazione è costituita da diverse Activity indipendenti e disgiunte, oppure anche associate tra di loro. Esse devono essere **semplici e riutilizzabili** [See more](activity_lifecycle.md)
 2) **Service**: opera in *background* e l'utente non vi interagisce direttamente. Utilizzabile da più componenti e non ha un processo dedicato.
-3) **Intent**: permette di far interagire le varie applicazioni. Per ricevere gli Intent, ci si avvale di un componente che abbia degli *Intent Filter* compatibili, cioè il *BroadcastReceiver*.
-   Tipicamente sono usati per passare da un'app all'altra e sono di **due tipi**:
+3) **Intent**: permette di far interagire le varie applicazioni. Per ricevere gli Intent, ci si avvale di un componente che abbia degli *Intent Filter* compatibili, cioè un [*BroadcastReceiver*](broadcast.md).
+   Tipicamente, gli Intent sono usati per passare da un'app all'altra e sono di **due tipi**:
 	   - **Esplicito**: quando si sa esattamente la classe del componente da attivare
 	   - **Implicito**: quando non si conosce tale classe. Ad esempio, quando abbiamo più app per eseguire un certo compito, il sistema Android ci presenta un menù di scelta, presentando dei componenti selezionati in base ad un algoritmo di *Intent Resolution*, che opera in base agli Intent Filters applicabili dichiarati nel manifest. Quindi, l'Intent implicito ha bisogno di specificare:
 		   - **azione** da eseguire e **tipo** di componente da attivare;

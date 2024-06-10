@@ -1,15 +1,23 @@
 {
 	"nodes":[
-		{"id":"eeefa4ec5e1c3a6b","type":"file","file":"pages/android/activity_lifecycle.md","x":1451,"y":-1598,"width":250,"height":238},
+		{"id":"d64fb4862a652984","type":"group","x":-1120,"y":-1280,"width":480,"height":780,"label":"schedulazione operazioni"},
+		{"id":"6d9c779fe1647fd2","type":"group","x":23,"y":-683,"width":291,"height":583,"label":"Internet"},
+		{"id":"e3f02ff84a068eeb","type":"file","file":"pages/android/sicurezza.md","x":-460,"y":-537,"width":250,"height":328},
+		{"id":"6294cd49323f55f7","type":"file","file":"pages/android/connInt.md","x":43,"y":-299,"width":250,"height":179},
 		{"id":"ece2c0de67cfa543","type":"file","file":"pages/android/init_android.md","x":-31,"y":-1443,"width":400,"height":400},
 		{"id":"75649368d9d85fa5","type":"file","file":"pages/android/kernel.md","x":27,"y":-1880,"width":285,"height":209},
 		{"id":"fc42121f89c9a00d","type":"file","file":"pages/android/wakelock.md","x":-281,"y":-2160,"width":250,"height":206},
 		{"id":"9515b6dc26be6889","type":"file","file":"pages/android/nativeLib.md","x":560,"y":-1880,"width":250,"height":208},
+		{"id":"1047bb48e5520a9a","type":"file","file":"pages/android/broadcast.md","x":-631,"y":-1775,"width":250,"height":230},
+		{"id":"4eebc30f25e6cc2e","type":"file","file":"pages/android/job_scheduler.md","x":-996,"y":-849,"width":250,"height":293},
+		{"id":"a09cfc9bde778a9c","type":"file","file":"pages/android/alarm.md","x":-996,"y":-1207,"width":250,"height":277},
+		{"id":"bfe17d89be92df8b","type":"file","file":"pages/android/Socket.md","x":44,"y":-663,"width":250,"height":241},
+		{"id":"eeefa4ec5e1c3a6b","type":"file","file":"pages/android/activity_lifecycle.md","x":1451,"y":-1598,"width":250,"height":238},
 		{"id":"8a41e49b38c2f414","type":"file","file":"pages/android/appFram.md","x":960,"y":-1340,"width":250,"height":195},
 		{"id":"6d41b61949471846","type":"file","file":"pages/android/task.md","x":1880,"y":-1861,"width":250,"height":171},
-		{"id":"81e6d34bc3b49e59","x":1201,"y":-1043,"width":250,"height":185,"type":"file","file":"pages/scheduling.md"},
-		{"id":"a750a4763451c196","x":685,"y":-950,"width":250,"height":175,"type":"file","file":"pages/threading.md"},
-		{"id":"bd6fd9884647768c","x":47,"y":-735,"width":250,"height":60,"type":"text","text":""}
+		{"id":"81e6d34bc3b49e59","type":"file","file":"pages/android/scheduling.md","x":1201,"y":-1043,"width":250,"height":185},
+		{"id":"a750a4763451c196","type":"file","file":"pages/android/threading.md","x":1210,"y":-663,"width":250,"height":175},
+		{"id":"9bd7f8e46689ab29","type":"file","file":"pages/android/tecAsynch.md","x":1085,"y":-350,"width":473,"height":295}
 	],
 	"edges":[
 		{"id":"ab2eea580eb3e5d5","fromNode":"ece2c0de67cfa543","fromSide":"top","toNode":"75649368d9d85fa5","toSide":"bottom","label":"Kernel layer"},
@@ -20,6 +28,12 @@
 		{"id":"70d597d9b7c5613b","fromNode":"eeefa4ec5e1c3a6b","fromSide":"right","toNode":"6d41b61949471846","toSide":"bottom","label":"activity gestite da"},
 		{"id":"d414317fccc91059","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"a750a4763451c196","toSide":"left","label":"Threading \nin Android"},
 		{"id":"dfef0137912254a1","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"81e6d34bc3b49e59","toSide":"left","label":"Scheduling"},
-		{"id":"c3de8002c914bc6f","fromNode":"ece2c0de67cfa543","fromSide":"bottom","toNode":"bd6fd9884647768c","toSide":"top"}
+		{"id":"c3de8002c914bc6f","fromNode":"ece2c0de67cfa543","fromSide":"right","toNode":"9bd7f8e46689ab29","toSide":"left","label":"esecuzione\n logica applicativa"},
+		{"id":"3c155fec10c678e2","fromNode":"ece2c0de67cfa543","fromSide":"left","toNode":"1047bb48e5520a9a","toSide":"bottom","label":"gestione \neventi"},
+		{"id":"65bde6323171142c","fromNode":"ece2c0de67cfa543","fromSide":"left","toNode":"a09cfc9bde778a9c","toSide":"right"},
+		{"id":"e8dc957f77ebafbe","fromNode":"ece2c0de67cfa543","fromSide":"left","toNode":"4eebc30f25e6cc2e","toSide":"right"},
+		{"id":"53b612447606b4cc","fromNode":"ece2c0de67cfa543","fromSide":"bottom","toNode":"bfe17d89be92df8b","toSide":"top"},
+		{"id":"99e245e9d8e1932f","fromNode":"bfe17d89be92df8b","fromSide":"bottom","toNode":"6294cd49323f55f7","toSide":"top"},
+		{"id":"85b3543cd5e4a135","fromNode":"ece2c0de67cfa543","fromSide":"bottom","toNode":"e3f02ff84a068eeb","toSide":"top","label":"sicurezza"}
 	]
 }

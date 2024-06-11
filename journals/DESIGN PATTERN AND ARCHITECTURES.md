@@ -52,37 +52,6 @@ when is not possible to resolve conflicts the engine has to alarm the applicatio
 
 ##### POSSIBLE SYNCHRONIZATION LEVELS
 
-```mermaid
-flowchart LR
-subgraph Process_level
-C([Process A])
-D([Process B])
-E[LOCK]
-F[data item 1]
-C & D --> E --sync--> F
-end
-subgraph data-level
-subgraph system_A
-direction TB
-G([Process])
-H[(data item 1)]
-G --> H
-end
-subgraph system_B
-direction TB
-I([Process])
-J[(data item 1)]
-I --> J
-end
-subgraph main
-direction TB
-K[(data item 1)]
-I --> J
-end
-system_A & system_B --> K
-end
-Process_level ~~~ data-level
-```
 
 other parameter can be tuned in the implementation:
 

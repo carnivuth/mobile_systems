@@ -1,25 +1,24 @@
 # MOBILE MIDDLEWARE
 
-**Definizione generale di MW**: stack di supporto cross-layer e application-agnostic, che mira a problemi e sfide dei livelli OSI >= 4 (sessione, trasporto, presentazione e applicazione).
+Mobile Middleware general definition:
 
-Il MW deve essere **riutilizzabile** in varie applicazioni
+*support software stack, typically cross-layer and application-agnostic, which targets issues and challenges at OSI levels >= 4*
 
-La nozione classica di MW non è adatta ad ambienti mobili, per via di:
-- disponibilità energetica e risorse limitate;
-- mobilità dei nodi.
+## WHY A MIDDLEWARE FOR MOBILE APPLICATIONS
 
-Il ***==mobile middleware==*** si pone come obiettivi:
-- fault tolerance;
-- adattabilità;
-- scalabilità;
-- supporto all'eterogeneità;
-- condivisione delle risorse;
-- visibilità delle condizioni di esecuzione ai livelli inferiori, perché nel mobile MW i livelli sono collegati in termini di coordinazione e visibilità (mentre nel MW in OSI i livelli sono separati).
+Many of the problems that a mobile application need to resolve are always the same and are related to the **network not always available and no guaranteed performance**.
 
-Inoltre, c'è la necessità di effettuare *decoupling in space & time* per via delle variazioni dinamiche del contesto, dovute alla mobilità stessa dei nodi. A questo scopo si utilizzano dei ==*proxy*==
+Given that, is not feasible for a business to address those problems each time there is the need to develop for mobile environments (**e.g. follow the DRY principle**)
 
-Nella progettazione delle applicazioni si adotta un **MODELLO A CLESSIDRA**:
-- in **basso** abbiamo dispositivi eterogenei (= layer fisici diversi);
-- al **centro** abbiamo il livello di trasporto (TCP/IP), convergenza;
-- divergenza in **alto**, con applicazioni con bisogni differenti.
-![](Pasted%20image%2020240608112155.png)
+A Middleware can also address different environment and hardware infrastructures and offer an homogeneous interface.
+
+## MOBILE VS FIXED MIDDLEWARE
+
+A mobile middleware **has lot of differences to address due to the different deployment environment** 
+
+- Context dynamically changes
+- Need of decoupling in space and in time
+- Asynchronous events, spaces for data sharing
+- provisioning of some level/degree of visibility of running conditions to lower layers
+- partial visibility of location change
+- modifications in the QoS levels currently available

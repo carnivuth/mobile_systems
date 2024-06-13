@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"6fe83151d0880b76","type":"file","file":"pages/IoT/IOT.md","x":-180,"y":-220,"width":400,"height":400},
+		{"id":"8c409d8ea53f9ffa","type":"file","file":"pages/IoT/SCADA.md","x":760,"y":-220,"width":400,"height":400},
+		{"id":"9b91b673622ba9f1","type":"file","file":"pages/IoT/CLOUD_IOT.md","x":-180,"y":-840,"width":400,"height":400},
+		{"id":"496836f0ffc80640","x":-1000,"y":-840,"width":400,"height":400,"type":"file","file":"pages/IoT/IOT_PLATFORMS.md"},
+		{"id":"cd81a62afc40b229","type":"file","file":"pages/IoT/IOT_DEVICES.md","x":-180,"y":440,"width":400,"height":400},
+		{"id":"67fb376e3a50b387","type":"file","file":"pages/IoT/IOT_PROTOCOLS.md","x":-1080,"y":440,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"094ab43bc1e75b5f","fromNode":"6fe83151d0880b76","fromSide":"right","toNode":"8c409d8ea53f9ffa","toSide":"left","label":"SOLUTION\nBEFORE IoT"},
+		{"id":"ef732990c6b04204","fromNode":"6fe83151d0880b76","fromSide":"bottom","toNode":"cd81a62afc40b229","toSide":"top"},
+		{"id":"9cf707972f8a6e0c","fromNode":"cd81a62afc40b229","fromSide":"left","toNode":"67fb376e3a50b387","toSide":"right","label":"HOW DEVICES\nCOMMUNICATES"},
+		{"id":"23b56d2c16da2046","fromNode":"6fe83151d0880b76","fromSide":"top","toNode":"9b91b673622ba9f1","toSide":"bottom","label":"IOT CLOUD\nSOLUTION"},
+		{"id":"393da29bab95cb41","fromNode":"8c409d8ea53f9ffa","fromSide":"top","toNode":"9b91b673622ba9f1","toSide":"right","label":"EVOLUTION TOWARDS\nGENERAL PURPOSE\nSOLUTIONS"},
+		{"id":"f0df5395adcd0172","fromNode":"9b91b673622ba9f1","fromSide":"left","toNode":"496836f0ffc80640","toSide":"right","label":"COMMERCIAL\nSOLUTIONS"}
+	]
+}

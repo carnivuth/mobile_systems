@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"db106ebd0b1cf178","type":"file","file":"pages/mobility/MOBILITY_IP_NETWORKS.md","x":-240,"y":-120,"width":400,"height":400},
+		{"id":"db106ebd0b1cf178","type":"file","file":"pages/mobility/MOBILITY_IP_NETWORKS.md","x":-240,"y":-120,"width":400,"height":400,"color":"4"},
 		{"id":"4831e6b21c241f65","type":"file","file":"pages/mobility/HOST_IDENTITY_PROTOCOL.md","x":-240,"y":-960,"width":400,"height":400},
 		{"id":"837a25c7b17fcdcd","type":"file","file":"pages/mobility/MOBILE_IP.md","x":800,"y":-120,"width":400,"height":400},
 		{"id":"fc20bf90339b2a7d","type":"file","file":"pages/mobility/HIERARCHICAL_MOBILE_IPV6.md","x":800,"y":480,"width":400,"height":400},

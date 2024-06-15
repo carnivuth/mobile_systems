@@ -1,15 +1,14 @@
 {
 	"nodes":[
-		{"id":"76afe503042c2850","type":"text","text":"# POSITIONING SYSTEMS","x":77,"y":-520,"width":268,"height":84},
+		{"id":"76afe503042c2850","type":"text","text":"# POSITIONING SYSTEMS","x":77,"y":-520,"width":268,"height":84,"color":"4"},
 		{"id":"e5bc83ba7a033e41","type":"file","file":"pages/positioning_systems/TAXONOMY.md","x":720,"y":-680,"width":400,"height":400},
 		{"id":"d2d9ac9fb700c713","type":"file","file":"pages/positioning_systems/MANET_POSITIONING_SYSTEMS.md","x":-780,"y":-678,"width":400,"height":400},
 		{"id":"ce36fbd210f6a6d5","type":"file","file":"pages/positioning_systems/BASE_TECHNIQUES.md","x":11,"y":-1220,"width":400,"height":400},
-		{"id":"a4a0a674766b58f3","x":-850,"y":331,"width":250,"height":60,"type":"text","text":""},
+		{"id":"a4a0a674766b58f3","type":"text","text":"","x":-850,"y":331,"width":250,"height":60},
 		{"id":"38e3d28916b9122c","type":"file","file":"pages/positioning_systems/NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md","x":-323,"y":280,"width":400,"height":400},
-		{"id":"faac0e43207b89be","x":-211,"y":376,"width":250,"height":60,"type":"text","text":""},
 		{"id":"dc8e2bd21ee3ef25","type":"file","file":"pages/positioning_systems/ACTIVE_BAT.md","x":411,"y":280,"width":400,"height":400},
 		{"id":"7c30764d0fb06a93","type":"file","file":"pages/positioning_systems/GLOBAL_POSITIONING_SYSTEM.md","x":1280,"y":280,"width":400,"height":400},
-		{"id":"c85319fa8dd0e9e7","x":-980,"y":280,"width":400,"height":400,"type":"file","file":"pages/positioning_systems/RADAR.md"}
+		{"id":"c85319fa8dd0e9e7","type":"file","file":"pages/positioning_systems/RADAR.md","x":-980,"y":280,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"705061ad83a8acaa","fromNode":"76afe503042c2850","fromSide":"right","toNode":"e5bc83ba7a033e41","toSide":"left","label":"HOW THEY ARE\nCLASSIFIED"},

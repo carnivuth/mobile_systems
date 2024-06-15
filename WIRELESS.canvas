@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"831125891f8a3985","type":"file","file":"pages/wireless/WIRELESS_COMMUNICATION.md","x":-160,"y":-420,"width":400,"height":400},
+		{"id":"831125891f8a3985","type":"file","file":"pages/wireless/WIRELESS_COMMUNICATION.md","x":-160,"y":-420,"width":400,"height":400,"color":"4"},
 		{"id":"a4db5fab21bcdb46","type":"file","file":"pages/wireless/WIMAX.md","x":-160,"y":-1080,"width":400,"height":400},
-		{"id":"65255926c0315fc1","type":"file","file":"pages/wireless/MEDIUM_ACCESS_CONTROL.md","x":-160,"y":520,"width":400,"height":400},
-		{"id":"7e6d969bfafca6ca","type":"file","file":"pages/wireless/CSMA.md","x":-1000,"y":520,"width":400,"height":400},
 		{"id":"f3bbfda99a15af97","type":"file","file":"pages/wireless/CELLULAR_NETWORKING.md","x":840,"y":-420,"width":400,"height":400},
-		{"id":"45c9954974b1c379","type":"file","file":"pages/wireless/BLUETOOTH.md","x":880,"y":520,"width":400,"height":400},
-		{"id":"6dd8d40a6fe6c832","type":"file","file":"pages/wireless/ZIGBEE.md","x":1720,"y":520,"width":400,"height":400},
-		{"id":"a1797e1f4d86f8ad","type":"file","file":"pages/wireless/WIFI.md","x":-1200,"y":-420,"width":400,"height":400}
+		{"id":"a1797e1f4d86f8ad","type":"file","file":"pages/wireless/WIFI.md","x":-1200,"y":-420,"width":400,"height":400},
+		{"id":"65255926c0315fc1","type":"file","file":"pages/wireless/MEDIUM_ACCESS_CONTROL.md","x":-680,"y":520,"width":400,"height":400},
+		{"id":"45c9954974b1c379","type":"file","file":"pages/wireless/BLUETOOTH.md","x":400,"y":520,"width":400,"height":400},
+		{"id":"6dd8d40a6fe6c832","type":"file","file":"pages/wireless/ZIGBEE.md","x":1240,"y":520,"width":400,"height":400},
+		{"id":"7e6d969bfafca6ca","type":"file","file":"pages/wireless/CSMA.md","x":-1560,"y":520,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8564bc9c5b3810f3","fromNode":"831125891f8a3985","fromSide":"bottom","toNode":"65255926c0315fc1","toSide":"top","label":"STANDARDS TO CONTROL \nTHE PHYSICAL MEDIUM"},

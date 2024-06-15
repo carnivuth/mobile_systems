@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"6dc944382b423534","type":"file","file":"pages/manets/MANETS.md","x":-160,"y":-1520,"width":400,"height":400},
+		{"id":"6dc944382b423534","type":"file","file":"pages/manets/MANETS.md","x":-160,"y":-1520,"width":400,"height":400,"color":"4"},
 		{"id":"10668d34946ace07","type":"file","file":"pages/manets/MANETS_ROUTING.md","x":-160,"y":-880,"width":400,"height":400},
 		{"id":"25b7e33d5a7ffc90","type":"file","file":"pages/manets/DINAMIC_SOURCE_ROUTING.md","x":-800,"y":-320,"width":400,"height":400},
 		{"id":"5a2b46411cdf6ea9","type":"file","file":"pages/manets/ADHOC_ON_DEMAND_DISTANCE_VECTOR.md","x":480,"y":-320,"width":400,"height":400},
-		{"id":"2bc2c6182df749ea","x":680,"y":-1520,"width":400,"height":400,"type":"file","file":"pages/manets/WIFI_DIRECT.md"},
+		{"id":"2bc2c6182df749ea","type":"file","file":"pages/manets/WIFI_DIRECT.md","x":680,"y":-1520,"width":400,"height":400},
 		{"id":"68ea79dcbda2ffd4","type":"file","file":"pages/manets/TEMPORARY_ORDERED_ROUTING_ALGORITHM.md","x":-1440,"y":-520,"width":400,"height":400},
 		{"id":"c4157e77b7867d32","type":"file","file":"pages/manets/GREEDY_PERIMETER_STATELESS_ROUTING.md","x":-1440,"y":-1120,"width":400,"height":400},
-		{"id":"4319bcc8a1e881c4","x":880,"y":-880,"width":400,"height":400,"type":"file","file":"pages/manets/CLUSTERING.md"}
+		{"id":"4319bcc8a1e881c4","type":"file","file":"pages/manets/CLUSTERING.md","x":880,"y":-880,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"7fa1d616961d9873","fromNode":"25b7e33d5a7ffc90","fromSide":"right","toNode":"5a2b46411cdf6ea9","toSide":"left","label":"IMPROVEMENTS FOR THE\nVARIABLE SIZED HEADER"},

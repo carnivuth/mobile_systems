@@ -6,10 +6,10 @@
 		{"id":"496836f0ffc80640","type":"file","file":"pages/IoT/IOT_PLATFORMS.md","x":-1000,"y":-840,"width":400,"height":400},
 		{"id":"cd81a62afc40b229","type":"file","file":"pages/IoT/IOT_DEVICES.md","x":-180,"y":440,"width":400,"height":400},
 		{"id":"67fb376e3a50b387","type":"file","file":"pages/IoT/IOT_PROTOCOLS.md","x":-1080,"y":440,"width":400,"height":400},
-		{"id":"6a9721300b6fb87c","x":-2080,"y":40,"width":400,"height":400,"type":"file","file":"pages/IoT/PUB_SUB_MODEL.md"},
-		{"id":"5048a7c4963073cc","x":-2080,"y":-560,"width":400,"height":400,"type":"file","file":"pages/IoT/PUB_SUB_PROTOCOLS.md"},
-		{"id":"47506775dbf4bd92","x":-1080,"y":1080,"width":400,"height":400,"type":"file","file":"pages/IoT/REST.md"},
-		{"id":"6fe8f1305d80a48c","x":-2080,"y":880,"width":400,"height":400,"type":"file","file":"pages/IoT/COAP.md"}
+		{"id":"6a9721300b6fb87c","type":"file","file":"pages/IoT/PUB_SUB_MODEL.md","x":-2080,"y":40,"width":400,"height":400},
+		{"id":"5048a7c4963073cc","type":"file","file":"pages/IoT/PUB_SUB_PROTOCOLS.md","x":-2080,"y":-560,"width":400,"height":400},
+		{"id":"47506775dbf4bd92","type":"file","file":"pages/IoT/REST.md","x":-1080,"y":1080,"width":400,"height":400},
+		{"id":"6fe8f1305d80a48c","type":"file","file":"pages/IoT/COAP.md","x":-2080,"y":880,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"094ab43bc1e75b5f","fromNode":"6fe83151d0880b76","fromSide":"right","toNode":"8c409d8ea53f9ffa","toSide":"left","label":"SOLUTION\nBEFORE IoT"},

@@ -18,6 +18,10 @@ There is a folder for each macro-argument of the course inside the `pages` folde
 
 for each macro-argument there is a conceptual map in the root folder for a quick overview of the arguments structure 
 
+### USEFUL CONTENT 
+
+- [Michele colonna's fleshcard](https://github.com/mikyll/Mobile-Systems-M/blob/main/flashcards.md)
+
 ## CREDITS
 
 - [carnivuth](https://github.com/carnivuth)

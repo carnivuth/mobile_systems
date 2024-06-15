@@ -30,5 +30,3 @@ An IoT system tasks can be resumed as the following:
 - Store and aggregate information
 - Analyze information to improve system knowledge
 - Take decisions, in a human-assisted or autonomous manner
-
-

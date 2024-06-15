@@ -1,27 +1,35 @@
 {
 	"nodes":[
-		{"id":"6fe83151d0880b76","type":"file","file":"pages/IoT/IOT.md","x":-180,"y":-220,"width":400,"height":400},
+		{"id":"6fe83151d0880b76","type":"file","file":"pages/IoT/IOT.md","x":-180,"y":-220,"width":400,"height":400,"color":"4"},
 		{"id":"8c409d8ea53f9ffa","type":"file","file":"pages/IoT/SCADA.md","x":760,"y":-220,"width":400,"height":400},
-		{"id":"9b91b673622ba9f1","type":"file","file":"pages/IoT/CLOUD_IOT.md","x":-180,"y":-840,"width":400,"height":400},
-		{"id":"496836f0ffc80640","type":"file","file":"pages/IoT/IOT_PLATFORMS.md","x":-1000,"y":-840,"width":400,"height":400},
 		{"id":"cd81a62afc40b229","type":"file","file":"pages/IoT/IOT_DEVICES.md","x":-180,"y":440,"width":400,"height":400},
 		{"id":"67fb376e3a50b387","type":"file","file":"pages/IoT/IOT_PROTOCOLS.md","x":-1080,"y":440,"width":400,"height":400},
-		{"id":"6a9721300b6fb87c","type":"file","file":"pages/IoT/PUB_SUB_MODEL.md","x":-2080,"y":40,"width":400,"height":400},
-		{"id":"5048a7c4963073cc","type":"file","file":"pages/IoT/PUB_SUB_PROTOCOLS.md","x":-2080,"y":-560,"width":400,"height":400},
-		{"id":"47506775dbf4bd92","type":"file","file":"pages/IoT/REST.md","x":-1080,"y":1080,"width":400,"height":400},
-		{"id":"6fe8f1305d80a48c","type":"file","file":"pages/IoT/COAP.md","x":-2080,"y":880,"width":400,"height":400}
+		{"id":"496836f0ffc80640","type":"file","file":"pages/IoT/IOT_PLATFORMS.md","x":-180,"y":-840,"width":400,"height":400},
+		{"id":"d47f133457ff1f1f","type":"file","file":"pages/IoT/EDGEX_IOT_PLATFORM.md","x":120,"y":-1520,"width":400,"height":400},
+		{"id":"a6b3c62052af466e","type":"file","file":"pages/IoT/AWS_IOT_PLATFORM.md","x":-520,"y":-1520,"width":400,"height":400},
+		{"id":"fd58e7c0a1762080","type":"file","file":"pages/IoT/AZURE_IOT_PLATFORM.md","x":-1000,"y":-1520,"width":400,"height":400},
+		{"id":"d18030c0ecf37c78","type":"file","file":"pages/IoT/SIEMENS_MINDSPHERE.md","x":600,"y":-1520,"width":400,"height":400},
+		{"id":"e876d3e4799a4076","x":-1080,"y":1160,"width":400,"height":400,"type":"file","file":"pages/IoT/REQUEST_RESPONSE.md"},
+		{"id":"47506775dbf4bd92","type":"file","file":"pages/IoT/REST.md","x":-1080,"y":1880,"width":400,"height":400},
+		{"id":"6a9721300b6fb87c","type":"file","file":"pages/IoT/PUB_SUB_MODEL.md","x":-2200,"y":440,"width":400,"height":400},
+		{"id":"6fe8f1305d80a48c","type":"file","file":"pages/IoT/COAP.md","x":-2200,"y":1880,"width":400,"height":400},
+		{"id":"5048a7c4963073cc","type":"file","file":"pages/IoT/PUB_SUB_PROTOCOLS.md","x":-2200,"y":-320,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"094ab43bc1e75b5f","fromNode":"6fe83151d0880b76","fromSide":"right","toNode":"8c409d8ea53f9ffa","toSide":"left","label":"SOLUTION\nBEFORE IoT"},
 		{"id":"ef732990c6b04204","fromNode":"6fe83151d0880b76","fromSide":"bottom","toNode":"cd81a62afc40b229","toSide":"top"},
-		{"id":"9cf707972f8a6e0c","fromNode":"cd81a62afc40b229","fromSide":"left","toNode":"67fb376e3a50b387","toSide":"right","label":"HOW DEVICES\nCOMMUNICATES"},
-		{"id":"23b56d2c16da2046","fromNode":"6fe83151d0880b76","fromSide":"top","toNode":"9b91b673622ba9f1","toSide":"bottom","label":"IOT CLOUD\nSOLUTION"},
-		{"id":"393da29bab95cb41","fromNode":"8c409d8ea53f9ffa","fromSide":"top","toNode":"9b91b673622ba9f1","toSide":"right","label":"EVOLUTION TOWARDS\nGENERAL PURPOSE\nSOLUTIONS"},
-		{"id":"f0df5395adcd0172","fromNode":"9b91b673622ba9f1","fromSide":"left","toNode":"496836f0ffc80640","toSide":"right","label":"COMMERCIAL\nSOLUTIONS"},
-		{"id":"bc80874374a271dd","fromNode":"67fb376e3a50b387","fromSide":"left","toNode":"6a9721300b6fb87c","toSide":"right","label":"PUBLISH SUBSCRIBE MODEL"},
+		{"id":"9cf707972f8a6e0c","fromNode":"cd81a62afc40b229","fromSide":"left","toNode":"67fb376e3a50b387","toSide":"right","label":"HOW DEVICES\nSEND DATA"},
+		{"id":"23b56d2c16da2046","fromNode":"6fe83151d0880b76","fromSide":"top","toNode":"496836f0ffc80640","toSide":"bottom","label":"IOT CLOUD\nSOLUTION"},
+		{"id":"393da29bab95cb41","fromNode":"8c409d8ea53f9ffa","fromSide":"top","toNode":"496836f0ffc80640","toSide":"right","label":"EVOLUTION TOWARDS\nGENERAL PURPOSE\nSOLUTIONS"},
+		{"id":"bc80874374a271dd","fromNode":"67fb376e3a50b387","fromSide":"left","toNode":"6a9721300b6fb87c","toSide":"right","label":"PUBLISH SUBSCRIBE\n MODEL"},
 		{"id":"18fe3a2ee2661e2e","fromNode":"6a9721300b6fb87c","fromSide":"top","toNode":"5048a7c4963073cc","toSide":"bottom","label":"IMPLEMENTATIONS"},
-		{"id":"ebc2f203701045d7","fromNode":"67fb376e3a50b387","fromSide":"bottom","toNode":"47506775dbf4bd92","toSide":"top","label":"MODEL OF \nINTERACTION"},
-		{"id":"01e3ac99d8316063","fromNode":"67fb376e3a50b387","fromSide":"left","toNode":"6fe8f1305d80a48c","toSide":"right","label":"CLIENT SERVER IMPLEMENTATION"},
-		{"id":"bf7f50e073067a1b","fromNode":"6a9721300b6fb87c","fromSide":"bottom","toNode":"6fe8f1305d80a48c","toSide":"top","label":"CAN ALSO WORK AS A PUB SUB MODEL SOLUTION"}
+		{"id":"ebc2f203701045d7","fromNode":"e876d3e4799a4076","fromSide":"bottom","toNode":"47506775dbf4bd92","toSide":"top","label":"MODEL OF \nINTERACTION\nBASED ON REQ/REP\nMODEL"},
+		{"id":"01e3ac99d8316063","fromNode":"47506775dbf4bd92","fromSide":"left","toNode":"6fe8f1305d80a48c","toSide":"right","label":"RESTFUL\nPROTOCOL\nFOR CONSTRAINED\nDEVICES"},
+		{"id":"bf7f50e073067a1b","fromNode":"6a9721300b6fb87c","fromSide":"bottom","toNode":"6fe8f1305d80a48c","toSide":"top","label":"CAN ALSO WORK AS \nA PUB SUB\n SOLUTION"},
+		{"id":"bc882b2e1e7c2a61","fromNode":"496836f0ffc80640","fromSide":"top","toNode":"fd58e7c0a1762080","toSide":"bottom"},
+		{"id":"6c81d77d3cea0d3f","fromNode":"496836f0ffc80640","fromSide":"top","toNode":"a6b3c62052af466e","toSide":"bottom"},
+		{"id":"6f4905ca05c98f44","fromNode":"496836f0ffc80640","fromSide":"top","toNode":"d47f133457ff1f1f","toSide":"bottom"},
+		{"id":"8c6b2325fb2c0dbc","fromNode":"496836f0ffc80640","fromSide":"top","toNode":"d18030c0ecf37c78","toSide":"bottom"},
+		{"id":"ba91f7259d093666","fromNode":"67fb376e3a50b387","fromSide":"bottom","toNode":"e876d3e4799a4076","toSide":"top","label":"CLIENT DRIVEN MODEL"}
 	]
 }

@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"12dc4e0fb031a12b","x":-205,"y":-382,"width":400,"height":400,"type":"file","file":"pages/discovery_messages_events/SERVICE_DISCOVERY.md"},
+		{"id":"6d9233a3321382ea","x":-520,"y":280,"width":230,"height":84,"type":"text","text":"# [APACHE RIVER (JINI)](SERVICE_DISCOVERY.md#APACHE%20RIVER%20(JINI))"},
+		{"id":"08807be74d5d3648","x":240,"y":280,"width":340,"height":80,"type":"text","text":"# [SERVICE LOCATION PROTOCOL (SLP)](SERVICE_DISCOVERY.md#SERVICE%20LOCATION%20PROTOCOL%20(SLP))"},
+		{"id":"694c1bd388b85458","x":-161,"y":280,"width":313,"height":84,"type":"text","text":"# [UNIVERSAL PLUG AND PLAY (UPnP)](SERVICE_DISCOVERY.md#UNIVERSAL%20PLUG%20AND%20PLAY%20(UPnP))"}
+	],
+	"edges":[
+		{"id":"ea4873b6a35fcca3","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"694c1bd388b85458","toSide":"top"},
+		{"id":"d9866ccbd24f46b1","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"08807be74d5d3648","toSide":"top"},
+		{"id":"ff56a16bfb9550e1","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"6d9233a3321382ea","toSide":"top"}
+	]
+}

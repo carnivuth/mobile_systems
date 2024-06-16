@@ -42,25 +42,21 @@ Pattern that relies on all communication to travel to a proxy server that encode
 
 ## OBSERVER
 
-Pattern to implement one to many communications, a single object register for a specific subject and it's notified when the state of object under observation changes
+Pattern to implement one to many communications, a single object register for a specific subject and it's notified when the state of the subject changes
 
 ```mermaid
 flowchart TD
+subgraph notification
+D[subject]
+E[observer 1]
+F[observer 2]
+D --notifies--> E & F
+end
 subgraph registration
-A[monitored node]
+A[subject]
 B[observer 1]
 C[observer 2]
 C & B --register--> A
-end
-```
-
-```mermaid
-flowchart TD
-subgraph registration
-A[monitored node]
-B[observer 1]
-C[observer 2]
-A --notifies--> C & B
 end
 ```
 

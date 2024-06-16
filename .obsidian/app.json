@@ -9,5 +9,6 @@
   "attachmentFolderPath": "assets",
   "showInlineTitle": false,
   "vimMode": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showRibbon": true
 }

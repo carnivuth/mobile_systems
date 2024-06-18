@@ -10,7 +10,7 @@
 		{"id":"8d5e25e1979405f1","type":"file","file":"pages/android/JOB_SCHEDULER.md","x":1920,"y":806,"width":400,"height":400},
 		{"id":"16b43b8d41849257","type":"text","text":"# [SERVICE](ASYNCHRONOUS_TECHNIQUES.md#SERVICE)","x":1307,"y":2460,"width":187,"height":60},
 		{"id":"2f94c7f4c97c3136","type":"text","text":"# [HANDLER](ASYNCHRONOUS_TECHNIQUES.md#HANDLER)","x":820,"y":2460,"width":200,"height":60},
-		{"id":"3fb8f2cc5d1d47e9","x":43,"y":80,"width":400,"height":400,"type":"file","file":"pages/android/SOCKETS.md"}
+		{"id":"3fb8f2cc5d1d47e9","type":"file","file":"pages/android/SOCKETS.md","x":43,"y":80,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"fa7ebf0c80b42f70","fromNode":"84ed97c600d6428c","fromSide":"bottom","toNode":"2f3888fc15bbcf72","toSide":"top","label":"APPLICATIONS\nMAIN COMPONENT"},
@@ -21,6 +21,7 @@
 		{"id":"e1a17b596c73b41d","fromNode":"8d4c7727dcab4871","fromSide":"bottom","toNode":"16b43b8d41849257","toSide":"top"},
 		{"id":"d8f31badc2b681fe","fromNode":"8d4c7727dcab4871","fromSide":"bottom","toNode":"2f94c7f4c97c3136","toSide":"top"},
 		{"id":"485b00459ac03374","fromNode":"84ed97c600d6428c","fromSide":"left","toNode":"812c2f163eabe753","toSide":"right","label":"SCHEDULE\nJOBS"},
-		{"id":"49c7acbb27d00630","fromNode":"dc33b34038340988","fromSide":"right","toNode":"8d5e25e1979405f1","toSide":"left","label":"MANAGE\nMULTIPLE\nASYNC ACTIVITIES"}
+		{"id":"49c7acbb27d00630","fromNode":"dc33b34038340988","fromSide":"right","toNode":"8d5e25e1979405f1","toSide":"left","label":"MANAGE\nMULTIPLE\nASYNC ACTIVITIES"},
+		{"id":"f542edec4a2e4c19","fromNode":"84ed97c600d6428c","fromSide":"top","toNode":"3fb8f2cc5d1d47e9","toSide":"bottom","label":"HOW IS HANDLED\nNETWORKING"}
 	]
 }

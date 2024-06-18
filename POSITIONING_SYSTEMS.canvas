@@ -8,7 +8,9 @@
 		{"id":"38e3d28916b9122c","type":"file","file":"pages/positioning_systems/NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md","x":-323,"y":280,"width":400,"height":400},
 		{"id":"dc8e2bd21ee3ef25","type":"file","file":"pages/positioning_systems/ACTIVE_BAT.md","x":411,"y":280,"width":400,"height":400},
 		{"id":"7c30764d0fb06a93","type":"file","file":"pages/positioning_systems/GLOBAL_POSITIONING_SYSTEM.md","x":1280,"y":280,"width":400,"height":400},
-		{"id":"c85319fa8dd0e9e7","type":"file","file":"pages/positioning_systems/RADAR.md","x":-980,"y":280,"width":400,"height":400}
+		{"id":"c85319fa8dd0e9e7","type":"file","file":"pages/positioning_systems/RADAR.md","x":-980,"y":280,"width":400,"height":400},
+		{"id":"c2f9d566cb683baf","type":"file","file":"pages/positioning_systems/EKAHAU.md","x":-980,"y":840,"width":400,"height":400},
+		{"id":"ecdb719b6354a7e3","type":"file","file":"pages/positioning_systems/MULTIPLE_POSITIONING_SYSTEMS_SOLUTIONS.md","x":11,"y":1480,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"705061ad83a8acaa","fromNode":"76afe503042c2850","fromSide":"right","toNode":"e5bc83ba7a033e41","toSide":"left","label":"HOW THEY ARE\nCLASSIFIED"},
@@ -17,6 +19,11 @@
 		{"id":"bae16b207251082e","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"7c30764d0fb06a93","toSide":"top","label":"STANDARD FOR \nABSOLUTE PHYSICAL OUTDOOR \nPOSITIONING"},
 		{"id":"6129b768c8beb35d","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"dc8e2bd21ee3ef25","toSide":"top","label":"INDOOR SOLUTION"},
 		{"id":"375ab8ed6cb52a7c","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"38e3d28916b9122c","toSide":"top","label":"NO INFRASTRUCTURE\nSOLUTIONS"},
-		{"id":"20e49b43a815245a","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"c85319fa8dd0e9e7","toSide":"top","label":"INDOOR\nSCENE ANALYSIS\nSOLUTIONS"}
+		{"id":"20e49b43a815245a","fromNode":"76afe503042c2850","fromSide":"bottom","toNode":"c85319fa8dd0e9e7","toSide":"top","label":"INDOOR\nSCENE ANALYSIS\nSOLUTIONS"},
+		{"id":"0f963a715ddf7cda","fromNode":"c85319fa8dd0e9e7","fromSide":"bottom","toNode":"c2f9d566cb683baf","toSide":"top","label":"IMPROVED VERSION"},
+		{"id":"da161e62b373f100","fromNode":"c2f9d566cb683baf","fromSide":"bottom","toNode":"ecdb719b6354a7e3","toSide":"top"},
+		{"id":"b84ff908a5d87531","fromNode":"dc8e2bd21ee3ef25","fromSide":"bottom","toNode":"ecdb719b6354a7e3","toSide":"top"},
+		{"id":"62d3c5603fe20c3b","fromNode":"7c30764d0fb06a93","fromSide":"bottom","toNode":"ecdb719b6354a7e3","toSide":"top"},
+		{"id":"8429317429c2c59b","fromNode":"38e3d28916b9122c","fromSide":"bottom","toNode":"ecdb719b6354a7e3","toSide":"top"}
 	]
 }

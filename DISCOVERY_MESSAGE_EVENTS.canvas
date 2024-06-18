@@ -1,25 +1,29 @@
 {
 	"nodes":[
-		{"id":"12dc4e0fb031a12b","type":"file","file":"pages/discovery_messages_events/SERVICE_DISCOVERY.md","x":-205,"y":-382,"width":400,"height":400,"color":"4"},
-		{"id":"6d9233a3321382ea","type":"text","text":"# [APACHE RIVER (JINI)](SERVICE_DISCOVERY.md#APACHE%20RIVER%20(JINI))","x":-520,"y":280,"width":230,"height":84},
-		{"id":"08807be74d5d3648","type":"text","text":"# [SERVICE LOCATION PROTOCOL (SLP)](SERVICE_DISCOVERY.md#SERVICE%20LOCATION%20PROTOCOL%20(SLP))","x":240,"y":280,"width":340,"height":80},
-		{"id":"694c1bd388b85458","type":"text","text":"# [UNIVERSAL PLUG AND PLAY (UPnP)](SERVICE_DISCOVERY.md#UNIVERSAL%20PLUG%20AND%20PLAY%20(UPnP))","x":-161,"y":280,"width":313,"height":84},
 		{"id":"ef8b83ed8eee3e7a","type":"file","file":"pages/discovery_messages_events/MESSAGING.md","x":-920,"y":-1200,"width":400,"height":400,"color":"4"},
 		{"id":"6ef792ef41471c94","type":"file","file":"pages/discovery_messages_events/EVENTS.md","x":480,"y":-1200,"width":400,"height":400,"color":"4"},
 		{"id":"b816a4025337bcff","type":"file","file":"pages/discovery_messages_events/CORBA_MESSAGING.md","x":-920,"y":-1880,"width":400,"height":400},
 		{"id":"fd01577281436b40","type":"file","file":"pages/discovery_messages_events/JAVA_MESSAGE_SERVICE.md","x":-1560,"y":-1880,"width":400,"height":400},
 		{"id":"e0a28efdb832eef8","type":"file","file":"pages/discovery_messages_events/EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md","x":-280,"y":-1880,"width":400,"height":400},
-		{"id":"7106e9fc92565d9d","type":"file","file":"pages/IoT/REST.md","x":-1760,"y":-1200,"width":400,"height":400}
+		{"id":"7106e9fc92565d9d","type":"file","file":"pages/IoT/REST.md","x":-1760,"y":-1200,"width":400,"height":400},
+		{"id":"f25d5646dafa5d5d","x":880,"y":-1800,"width":259,"height":60,"type":"text","text":"# [JAVA EVENTS](EVENTS.md#JAVA%20EVENTS)"},
+		{"id":"ede3d1c9e44e6474","x":230,"y":-1800,"width":360,"height":83,"type":"text","text":"# [DATA DISTRIBUTION SERVICE (DDS)](PUB_SUB_PROTOCOLS.md#DATA%20DISTRIBUTION%20SERVICE%20(DDS))"},
+		{"id":"12dc4e0fb031a12b","type":"file","file":"pages/discovery_messages_events/SERVICE_DISCOVERY.md","x":-237,"y":-640,"width":400,"height":400,"color":"4"},
+		{"id":"6d9233a3321382ea","type":"text","text":"# [APACHE RIVER (JINI)](SERVICE_DISCOVERY.md#APACHE%20RIVER%20(JINI))","x":-552,"y":22,"width":230,"height":84},
+		{"id":"694c1bd388b85458","type":"text","text":"# [UNIVERSAL PLUG AND PLAY (UPnP)](SERVICE_DISCOVERY.md#UNIVERSAL%20PLUG%20AND%20PLAY%20(UPnP))","x":-193,"y":22,"width":313,"height":84},
+		{"id":"08807be74d5d3648","type":"text","text":"# [SERVICE LOCATION PROTOCOL (SLP)](SERVICE_DISCOVERY.md#SERVICE%20LOCATION%20PROTOCOL%20(SLP))","x":208,"y":22,"width":340,"height":80}
 	],
 	"edges":[
-		{"id":"ea4873b6a35fcca3","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"694c1bd388b85458","toSide":"top"},
+		{"id":"ea4873b6a35fcca3","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"694c1bd388b85458","toSide":"top","label":"THE FACTO\nSTANDARD"},
 		{"id":"d9866ccbd24f46b1","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"08807be74d5d3648","toSide":"top"},
-		{"id":"ff56a16bfb9550e1","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"6d9233a3321382ea","toSide":"top"},
+		{"id":"ff56a16bfb9550e1","fromNode":"12dc4e0fb031a12b","fromSide":"bottom","toNode":"6d9233a3321382ea","toSide":"top","label":"JAVA SOLUTION\nFOR SERVICE\nDISCOVERY"},
 		{"id":"65f4a0eecea6c97d","fromNode":"ef8b83ed8eee3e7a","fromSide":"top","toNode":"fd01577281436b40","toSide":"bottom","label":"JAVA SOLUTION\nFOR MESSAGES"},
 		{"id":"a52ff08fa2e30e96","fromNode":"ef8b83ed8eee3e7a","fromSide":"top","toNode":"b816a4025337bcff","toSide":"bottom","label":"LANGUAGE\nAGNOSTIC\nSOLUTION"},
 		{"id":"7b37af94dab2fa97","fromNode":"ef8b83ed8eee3e7a","fromSide":"top","toNode":"e0a28efdb832eef8","toSide":"bottom","label":"LARGE SCALE\nSOLUTION"},
 		{"id":"4265b7b231522119","fromNode":"ef8b83ed8eee3e7a","fromSide":"right","toNode":"6ef792ef41471c94","toSide":"left"},
 		{"id":"d6a4772b4ee6bf45","fromNode":"6ef792ef41471c94","fromSide":"left","toNode":"ef8b83ed8eee3e7a","toSide":"right","label":"NOT SO DIFFERENT \nIN MOBILE ENVIRONMENTS"},
-		{"id":"5476824c92a3644d","fromNode":"ef8b83ed8eee3e7a","fromSide":"left","toNode":"7106e9fc92565d9d","toSide":"right","label":"CAN BE USED\nAS A MESSAGING\nARCHITECTURAL\nSTYLE"}
+		{"id":"5476824c92a3644d","fromNode":"ef8b83ed8eee3e7a","fromSide":"left","toNode":"7106e9fc92565d9d","toSide":"right","label":"CAN BE USED\nAS A MESSAGING\nARCHITECTURAL\nSTYLE"},
+		{"id":"47aa48378c4363a6","fromNode":"6ef792ef41471c94","fromSide":"top","toNode":"ede3d1c9e44e6474","toSide":"bottom"},
+		{"id":"8f887088e4428be6","fromNode":"6ef792ef41471c94","fromSide":"top","toNode":"f25d5646dafa5d5d","toSide":"bottom","label":"JAVA EVENT\nSOLUTION"}
 	]
 }

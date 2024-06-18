@@ -9,7 +9,8 @@
 		{"id":"812c2f163eabe753","type":"file","file":"pages/android/ALARMS.md","x":-760,"y":806,"width":400,"height":400},
 		{"id":"8d5e25e1979405f1","type":"file","file":"pages/android/JOB_SCHEDULER.md","x":1920,"y":806,"width":400,"height":400},
 		{"id":"16b43b8d41849257","type":"text","text":"# [SERVICE](ASYNCHRONOUS_TECHNIQUES.md#SERVICE)","x":1307,"y":2460,"width":187,"height":60},
-		{"id":"2f94c7f4c97c3136","type":"text","text":"# [HANDLER](ASYNCHRONOUS_TECHNIQUES.md#HANDLER)","x":820,"y":2460,"width":200,"height":60}
+		{"id":"2f94c7f4c97c3136","type":"text","text":"# [HANDLER](ASYNCHRONOUS_TECHNIQUES.md#HANDLER)","x":820,"y":2460,"width":200,"height":60},
+		{"id":"3fb8f2cc5d1d47e9","x":43,"y":80,"width":400,"height":400,"type":"file","file":"pages/android/SOCKETS.md"}
 	],
 	"edges":[
 		{"id":"fa7ebf0c80b42f70","fromNode":"84ed97c600d6428c","fromSide":"bottom","toNode":"2f3888fc15bbcf72","toSide":"top","label":"APPLICATIONS\nMAIN COMPONENT"},

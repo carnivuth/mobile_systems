@@ -4,11 +4,22 @@ Activities are the main component of an android application, they can interact w
 
 ## ACTIVITY LIFECICLE
 
-Activities follow a specific lifecicle graph managed by the android runtime
+Activities follow a specific lifecicle graph managed by the android runtime, where activities cycle a set of states:
+
+- **running** when activity is visible and is interacting  with the user
+- **paused** the activity is visible but is no more the active one
+- **stopped** the activity is no more visible (*e.g. the user has switched to another application*)
+- **destroyed** the activity is terminated and resources deallocated
 
 ![](Pasted%20image%2020240610100558.png)
 
 In general **only one activity is in the running state where it can interact with the user**,but many activities can be processed by the runtime, when an activity is not more visible it transits in the paused/stopped state where it can recover state thanks to the **BUNDLE** object that the android runtime calls back when the activity is resumed
+
+### ACTIVITY PRIORITIES
+
+Activities can have different priorities that change the scheduling:
+
+
 
 ## HOW ACTIVITIES INTERACT: TASKS
 

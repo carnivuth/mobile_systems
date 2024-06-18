@@ -5,6 +5,7 @@ Android is a complex platform that offers developers with a mobile middleware th
 - **linux kernel** a stripped and modified version of the linux kernel
 - **system level libraries** C++ libraries to interact with hardware components, modified version of the jvm (*dalvik virtual machine*)
 - **application framework** java SDK's for interact with the under level components
+- **applications**
 
 In the android platform applications must follow the threading model offered by the platform and must be written in JAVA android compatible 
 
@@ -53,7 +54,8 @@ Android offers to developers some main concept to interact with the android runt
 
 Other components are available
 
-1) **Package & Activity manager** to handle [activity lifecicle](ACTIVITY.md#ACTIVITY%20LIFECICLE) and application management
-3) **Window Manager & View System**: handle windows on the screen
-4) **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
-5) **Telephony, Notification & Location Manager**
+- **Activity manager** to handle [activity lifecicle](ACTIVITY.md#ACTIVITY%20LIFECICLE) and application management
+- **package manager** to handle application management
+- **Window Manager & View System**: handle windows on the screen
+- **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
+- **Telephony, Notification & Location Manager**

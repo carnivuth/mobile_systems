@@ -66,4 +66,5 @@ Several things can cause error in position measurement such as:
 - **Non Line of Sight (NLOS)** a node is not in direct visibility
 - **clock skew**  clock are not synchronized
 - **fading** due to obstacle presence
+
  [NEXT](TAXONOMY.md)

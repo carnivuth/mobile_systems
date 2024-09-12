@@ -27,4 +27,5 @@ where:
 Java as determined a standard for positioning systems called PoSIM, under the UNIBO implementation architechture
 
 ![](Pasted%20image%2020240609161539.png)
+
 [PREVIOUS](EKAHAU.md)

@@ -33,4 +33,5 @@ the handoff can be
 - **MAP domain handoff** between to different MAPs
 
 The mobile nodes organizes themselves in MAPS dynamically based on **service rate** and **mobility rate**
+
 [PREVIOUS](MOBILE_IP.md) [NEXT](PROXY_HIERARCHICAL_MOBILE_IPV6.md)

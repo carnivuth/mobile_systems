@@ -138,4 +138,5 @@ SEQ: event key
 	Other (possible) names of variable and associated values
 </e:propertyset>
 ```
+
 [PREVIOUS](EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)

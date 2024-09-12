@@ -66,4 +66,5 @@ Other components are available
 - **Window Manager & View System**: handle windows on the screen
 - **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
 - **Telephony, Notification & Location Manager**
+
  [NEXT](ACTIVITY.md)

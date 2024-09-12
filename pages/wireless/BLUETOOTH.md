@@ -133,4 +133,5 @@ All **BLE** devices implements the generic attribute (GATT) profile
 | multi node communication                    | point to point communication only                           |
 | no discovery needed                         | need of discovery phase in order to communicate with a node |
 | communication can be done in broadcast mode | no efficient broadcast support                              |
+
 [PREVIOUS](CELLULAR_NETWORKING.md) [NEXT](ZIGBEE.md)

@@ -21,4 +21,5 @@ possible interaction with this model can be:
 
 - **pull** actuators request configurations from the server
 - **push** sensors send data to the server
+
 [PREVIOUS](PUB_SUB_PROTOCOLS.md) [NEXT](REST.md)

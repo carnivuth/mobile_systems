@@ -17,4 +17,5 @@ there are 2 possible solution to handle the problem:
 
 - **location update** the network infrastructure is informed of the mobile node position
 - **location search** the network infrastructure search and updates the node position
+
  [NEXT](HOST_IDENTITY_PROTOCOL.md)

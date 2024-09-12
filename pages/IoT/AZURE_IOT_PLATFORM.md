@@ -28,4 +28,5 @@ E[(IoT hub)]
 D --> E
 A & B & C --> D
 ```
+
 [PREVIOUS](AWS_IOT_PLATFORM.md) [NEXT](SIEMENS_MINDSPHERE.md)

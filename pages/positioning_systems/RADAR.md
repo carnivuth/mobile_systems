@@ -18,4 +18,5 @@ A central server collects data sent by devices in UDP packets containing orienta
 ## ONLINE PHASE
 
 mobile nodes send periodically UDP packets to the server that compares the packets to the dataset collected in the offline phase
+
 [PREVIOUS](ACTIVE_BAT.md) [NEXT](EKAHAU.md)

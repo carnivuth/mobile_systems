@@ -40,4 +40,5 @@ public class MyJobService extends JobService {
 - period
 - network type
 - if task requires the device to be plugged
+
 [PREVIOUS](ASYNCHRONOUS_TECHNIQUES.md) [NEXT](ALARMS.md)

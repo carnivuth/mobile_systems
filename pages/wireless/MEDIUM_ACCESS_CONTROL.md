@@ -65,4 +65,5 @@ D  <--> E
 E  <--> B
 end
 ```
+
 [PREVIOUS](WIRELESS_COMMUNICATION.md) [NEXT](CSMA.md)

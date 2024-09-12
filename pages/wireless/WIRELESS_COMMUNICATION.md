@@ -26,4 +26,5 @@ In real scenarios with mobile nodes, mathematical models cannot be used to estim
 In general it can be said that power fluctuations depends on the distance from the transmitter.
 
 **layer 2 protocols need to take into account this physical layer problems**
+
  [NEXT](MEDIUM_ACCESS_CONTROL.md)

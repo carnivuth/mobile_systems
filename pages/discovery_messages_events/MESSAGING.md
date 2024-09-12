@@ -73,4 +73,5 @@ also QoS politics need to be taken into account, possible solution can be ACK ba
 - Piggy-backed
 
 Also in order delivery semantics can be dropped to improve performance
+
 [PREVIOUS](SERVICE_DISCOVERY.md) [NEXT](JAVA_MESSAGE_SERVICE.md)

@@ -69,4 +69,5 @@ with no addition of new interfaces. Two or more layers are coupled at design tim
 Usually to achieve layers-joint optimization of the configuration of parameters (*joint tuning*) and to obtain better overall performance
 
 ![](Pasted%20image%2020240611101358.png)
+
 [PREVIOUS](MOBILE_MIDDLEWARE.md) [NEXT](PATTERNS.md)

@@ -21,4 +21,5 @@ Pattern that decouple connection management and application business code by hid
 ## MULTIPLEXED CONNECTION
 
 Pattern to allow multiple logic connections to travel on a single level 4 physical connection in order to improve performance instead of creating multiple channels (*e.g. SCTP stream control transfer protocol for multimedia streaming*)
+
 [PREVIOUS](RESOURCE_MANAGEMENT_PATTERNS.md)

@@ -56,4 +56,5 @@ C((MH))
 D((CH))
 D --> A --> B --> C --> B --> A --> D
 ```
+
 [PREVIOUS](HOST_IDENTITY_PROTOCOL.md) [NEXT](HIERARCHICAL_MOBILE_IPV6.md)

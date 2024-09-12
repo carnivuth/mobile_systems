@@ -55,4 +55,5 @@ Tre categorie principali:
 	- [connection factory](connFact.md)
 	- [multiplexed connection](multiplexedConn.md)
 	- [client-initiated connection for push model](clientInit.md)
+
 [PREVIOUS](MOBILE_MIDDLEWARE_PRINCIPLES.md) [NEXT](DISTRIBUTION_PATTERNS.md)

@@ -86,4 +86,5 @@ Application component that handles the broadcast message, they register to diffe
 ### SECURITY ASPECTS
 
 it's important to limit the range of the broadcast messages to avoid leaks and enforce permissions
+
 [PREVIOUS](ANDROID_PLATFORM.md) [NEXT](THREADING_MODEL.md)

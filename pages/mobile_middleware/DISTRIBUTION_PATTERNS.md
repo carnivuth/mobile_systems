@@ -75,4 +75,5 @@ end
 ### CONS
 
 - not to much scalable since a single node as the responsibility for communication
+
 [PREVIOUS](PATTERNS.md) [NEXT](RESOURCE_MANAGEMENT_PATTERNS.md)

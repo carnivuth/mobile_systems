@@ -22,4 +22,5 @@ system for production line monitory and control created Before IoT solution that
 - extensible, but within the same scope, (*e.g., an additional sensor in the same machine or an additional machine in the same plant*)
 - lack of standards, difficult to maintain/evolve
 - usually no interoperability (horizontal/vertical)
+
 [PREVIOUS](IOT.md) [NEXT](IOT_PLATFORMS.md)

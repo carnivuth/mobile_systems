@@ -16,4 +16,5 @@ Each anchor node compute the relative distance between himself and the one-hop n
 This solution relies on exploiting the maps of the anchor nodes to create a multi hop map of the nodes position
 
 ![](Pasted%20image%2020240608190212.png)
+
 [PREVIOUS](TAXONOMY.md) [NEXT](GLOBAL_POSITIONING_SYSTEM.md)

@@ -139,4 +139,5 @@ in Real scenarios sincronization is used only between 2 nodes
 Pattern that allows the infrastructure to manage handover situations exploiting [RENDEZVOUS](#RENDEZVOUS) to update clients
 
 ![](Pasted%20image%2020240608191524.png)
+
 [PREVIOUS](DISTRIBUTION_PATTERNS.md) [NEXT](COMMUNICATION_PATTERNS.md)

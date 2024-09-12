@@ -110,4 +110,5 @@ In this particular case the call is still routed trough the MSC where it has beg
 | PROACTIVE         | Handoff is started before the node exits the coverage area                                                     |
 | HARD              | The handoff procedure does not allow the mobile node to be connected to multiple BSS in the same time interval |
 | SOFT              | The handoff procedure allow the mobile node to be connected to multiple BSS in the same time interval          |
+
 [PREVIOUS](WIMAX.md) [NEXT](BLUETOOTH.md)

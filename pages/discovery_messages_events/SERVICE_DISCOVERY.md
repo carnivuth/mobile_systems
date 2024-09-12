@@ -140,4 +140,5 @@ sequenceDiagram
     Device->>ControlPoint: Notification with GENA in unicast
 ```
 
+
  [NEXT](MESSAGING.md)

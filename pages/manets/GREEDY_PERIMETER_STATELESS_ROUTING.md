@@ -21,4 +21,5 @@ there are 2 possible modes for data transmission in **GPSR**
 - **greedy** the packet is forwarded to the neighbor that is closest to the destination
 
  - **perimeter face forwarding** each nodes computes the relative neighborhood graph and when greedy fails the first node in the graph is traversed and then greedy is tried again
+
 [PREVIOUS](ADHOC_ON_DEMAND_DISTANCE_VECTOR.md) [NEXT](TEMPORARY_ORDERED_ROUTING_ALGORITHM.md)

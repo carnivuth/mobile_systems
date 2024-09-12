@@ -65,4 +65,5 @@ Two ways to implement power saving capabilities
 ## SECURITY
 
 WiFi direct uses WPS to implement a simple layer of security that has minimum user interaction requirements (*ask pin or ask for confirmation*)
+
 [PREVIOUS](MANETS.md) [NEXT](MANETS_ROUTING.md)

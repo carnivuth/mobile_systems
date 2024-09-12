@@ -38,4 +38,5 @@ C[deployment environment]
 D((positioning system\n capabilities))
 A & B & C --> D
 ```
+
 [PREVIOUS](BASE_TECHNIQUES.md) [NEXT](MANET_POSITIONING_SYSTEMS.md)

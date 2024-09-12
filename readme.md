@@ -10,6 +10,9 @@ this are my personal notes on mobile systems course of professor Bellavista Paol
 
 it's possible to use the repo without obsidian but in order to get the best experience you need to install it
 
+## WEBSITE
+
+There is also a [static website](https://carnivuth.github.io/mobile_systems)to interact with the content directly in the browser
 ## REPOSITORY STRUCTURE
 
 There is a folder for each macro-argument of the course inside the `pages` folder, each folder contains a brief recap of each argument

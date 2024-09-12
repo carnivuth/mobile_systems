@@ -1,3 +1,10 @@
+---
+id: AZURE_IOT_PLATFORM
+aliases: []
+tags: []
+index: 5
+---
+
 # AZURE IoT PLATFORM
 
 Microsoft cloud solution for IoT application, the main component is the azure IoT hub that communicates with the IoT devices and redirect the dataflow to the cloud components
@@ -21,3 +28,4 @@ E[(IoT hub)]
 D --> E
 A & B & C --> D
 ```
+[PREVIOUS](AWS_IOT_PLATFORM.md) [NEXT](SIEMENS_MINDSPHERE.md)

@@ -1,3 +1,10 @@
+---
+id: IOT_DEVICES
+aliases: []
+tags: []
+index: 8
+---
+
 # IoT DEVICES
 
 IoT devices can be classified in different categories given the following characteristics
@@ -21,3 +28,4 @@ IoT devices can be classified in different categories given the following charac
 | E1       | period energy limitation   |
 | E2       | lifetime energy limitation |
 | E9       | no energy limitation       |
+[PREVIOUS](EDGEX_IOT_PLATFORM.md) [NEXT](IOT_PROTOCOLS.md)

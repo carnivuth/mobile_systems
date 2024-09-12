@@ -1,3 +1,10 @@
+---
+id: RESOURCE_MANAGEMENT_PATTERNS
+aliases: []
+tags: []
+index: 5
+---
+
 # RESOURCE MANAGEMENT PATTERNS
 
 Patterns that are developed for managing data and resources in distributed environments
@@ -36,7 +43,7 @@ Data are fetched when the application requires them explicitly, reducing the dat
 ## SYNCHRONIZATION
 
 Pattern that allow to manage different data copies in different nodes, handling read write operations.
-Application delegates the read/write operations to a synchronization engine that handle the complexity of communicate to the other nodes detect and resolve conflicts 
+Application delegates the read/write operations to a synchronization engine that handle the complexity of communicate to the other nodes detect and resolve conflicts
 
 ```mermaid
 flowchart LR
@@ -56,8 +63,8 @@ terminal <--> host
 There are 2 possible models for synchronization
 
 - **process level** multiple process access a resource and sequential interaction is imposed
-- **data level** processes works on local copies of data and synchronization operations are triggered 
-   
+- **data level** processes works on local copies of data and synchronization operations are triggered
+
 ```mermaid
 flowchart LR
 subgraph Process_level
@@ -93,21 +100,21 @@ Process_level ~~~ data-level
 for data level synchronization some choices need to be made
 
 - **when to trigger sync operations** manual versus automatic triggers
-- **how to manage sync operations** 
+- **how to manage sync operations**
 	- optimistic multiple data copies are managed by the synchronization engine
-	- pessimistic approach only a single copy of the data is writable 
+	- pessimistic approach only a single copy of the data is writable
 
 ### SYNCHRONIZATION MECHANISMS
 
-### VERSIONING 
+### VERSIONING
 
 Optimistic approach that relies on version numbers, that are associated to a resource, a version number is defined by the following characteristics
 - if version $B$ comes from changes $A$ are $num(B) > num(A)$
-- two version number coming from the same version number are incompatible and needs a merge operation 
+- two version number coming from the same version number are incompatible and needs a merge operation
 
 - **update propagation**;
 - **changes detection**;
-- **reconciliation** 
+- **reconciliation**
 ### RENDEZVOUS
 
 Pattern that allow nodes to synchronize data by meeting at randezvous points
@@ -132,3 +139,4 @@ in Real scenarios sincronization is used only between 2 nodes
 Pattern that allows the infrastructure to manage handover situations exploiting [RENDEZVOUS](#RENDEZVOUS) to update clients
 
 ![](Pasted%20image%2020240608191524.png)
+[PREVIOUS](DISTRIBUTION_PATTERNS.md) [NEXT](COMMUNICATION_PATTERNS.md)

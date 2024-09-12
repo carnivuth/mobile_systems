@@ -1,3 +1,9 @@
+---
+id: INDUSTRIAL_DATA_EXCHANGE_FRAMEWORK
+aliases: []
+tags: []
+---
+
 # INDUSTRIAL DATA EXCHANGE FRAMEWORKS
 
 In IoT environment there is often the need to manage big data flows from sensors and drones, so multiple industrial solution for message exchange, storage and delivery are present in the market
@@ -6,8 +12,8 @@ In IoT environment there is often the need to manage big data flows from sensors
 
 ###  APPLICATION FEATURES
 
-- Multi protocol solution (*[MQTT](PUB_SUB_PROTOCOLS.md#MESSAGE%20QUEUE%20TELEMETRY%20TRANSPORT%20(MQTT)), [AMQP](PUB_SUB_PROTOCOLS.md#ADVANCED%20MESSAGE%20QUEUING%20PROTOCOL%20(AMQP)), HTTP*) for enterprise message exchange infrastructure, 
-- Distributed solution due to the support of multi node deployment (*clusters*) 
+- Multi protocol solution (*[MQTT](PUB_SUB_PROTOCOLS.md#MESSAGE%20QUEUE%20TELEMETRY%20TRANSPORT%20(MQTT)), [AMQP](PUB_SUB_PROTOCOLS.md#ADVANCED%20MESSAGE%20QUEUING%20PROTOCOL%20(AMQP)), HTTP*) for enterprise message exchange infrastructure,
+- Distributed solution due to the support of multi node deployment (*clusters*)
 - Possibility of federate across multiple location with different connection capabilities
 - monitor capabilities trough HTTP API
 
@@ -19,3 +25,4 @@ In IoT environment there is often the need to manage big data flows from sensors
 
 ## MT CONNECT
 ## OPC
+ [NEXT](IOT.md)

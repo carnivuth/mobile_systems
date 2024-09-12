@@ -1,3 +1,10 @@
+---
+id: ACTIVITY
+aliases: []
+tags: []
+index: 2
+---
+
 # ACTIVITY
 
 Activities are the main component of an android application, they can interact with the user and are put into execution by the android runtime
@@ -72,10 +79,11 @@ multiple ways to send a broadcast:
 
 ### BROADCAST RECEIVER
 
-Application component that handles the broadcast message, they register to different broadcast in 2 possible ways 
+Application component that handles the broadcast message, they register to different broadcast in 2 possible ways
 
 - **static receivers** using manifest
 - **dynamic receivers** using app or activities context
 ### SECURITY ASPECTS
 
 it's important to limit the range of the broadcast messages to avoid leaks and enforce permissions
+[PREVIOUS](ANDROID_PLATFORM.md) [NEXT](THREADING_MODEL.md)

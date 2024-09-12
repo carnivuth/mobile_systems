@@ -1,3 +1,10 @@
+---
+id: SOCKETS
+aliases: []
+tags: []
+index: 7
+---
+
 # SOCKETS AND NETWORKING IN ANDROID
 
 the java solution for sockets are available in android (*e.g. `Socket` `ServerSocket`*), they require a [multi-thread solution](ASYNCHRONOUS_TECHNIQUES.md), and explicit permission in the manifest file
@@ -26,3 +33,4 @@ The network card can operate at different energy limited levels:
 In order to be energy efficient a best practice is to bundle the data transfers to limit the amount of time the network card is active
 
 ![](Pasted%20image%2020240618124220.png)
+[PREVIOUS](ALARMS.md)

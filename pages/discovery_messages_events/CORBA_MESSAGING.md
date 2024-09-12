@@ -1,3 +1,10 @@
+---
+id: CORBA_MESSAGING
+aliases: []
+tags: []
+index: 4
+---
+
 # [CORBA](https://www.corba.org/) MESSAGING
 
 Also the CORBA project offers support for messaging infrastructure, the messaging infrastructure is made of 2 principal components:
@@ -12,7 +19,7 @@ locators are implemented trough Interoperable Object Reference (IOR), with diffe
 
 ## CALLBACK VS POLLING
 
-For the callback approach the application defines a callback function to be called 
+For the callback approach the application defines a callback function to be called
 
 ```c
 voidsendpoll_somma (in int i, in int j)
@@ -29,3 +36,4 @@ voidpollsomma (out int success, out int somma)
 ```
 
 ![](Pasted%20image%2020240616160048.png)
+[PREVIOUS](JAVA_MESSAGE_SERVICE.md) [NEXT](EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)

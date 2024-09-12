@@ -1,3 +1,10 @@
+---
+id: ANDROID_PLATFORM
+aliases: []
+tags: []
+index: 1
+---
+
 # ANDROID PLATFORM
 
 Android is a complex platform that offers developers with a mobile middleware that handles common mobile problems, it's composed by 4 layers,
@@ -7,7 +14,7 @@ Android is a complex platform that offers developers with a mobile middleware th
 - **application framework** java SDK's for interact with the under level components
 - **applications**
 
-In the android platform applications must follow the threading model offered by the platform and must be written in JAVA android compatible 
+In the android platform applications must follow the threading model offered by the platform and must be written in JAVA android compatible
 
 ## ANDROID IS LINUX? YES TO SOME EXTENT
 
@@ -59,3 +66,4 @@ Other components are available
 - **Window Manager & View System**: handle windows on the screen
 - **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
 - **Telephony, Notification & Location Manager**
+ [NEXT](ACTIVITY.md)

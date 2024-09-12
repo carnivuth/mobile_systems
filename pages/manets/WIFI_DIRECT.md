@@ -1,3 +1,10 @@
+---
+id: WIFI_DIRECT
+aliases: []
+tags: []
+index: 2
+---
+
 # WIFI DIRECT
 
 WiFi direct is the WiFi solution for ad hoc networks, It provides a node that plays the role of the Group owner GO and serve the other WiFi capable nodes like an AP in infrastructured mode:
@@ -33,7 +40,7 @@ there are 2 phases for the formation of a WiFi network group:
 
 Determination of the group owner can be done by 2 modes:
 
-- negotiation between devices 
+- negotiation between devices
 - establish the GO at the application level
 
 ## GROUP FORMATION
@@ -42,7 +49,7 @@ There are three ways to perform group formation:
 
 - **standard** p2p devices discovers each other and then [determines the group owner](#GO%20DETERMINATION)
 
-- **autonomous** a device create a group and becomes the group owner waiting for 
+- **autonomous** a device create a group and becomes the group owner waiting for
 
 - **persistent** a group is marked as persistent using WiFi direct beacon and nodes can exploits invitation to accelerate the group creation process
 
@@ -58,3 +65,4 @@ Two ways to implement power saving capabilities
 ## SECURITY
 
 WiFi direct uses WPS to implement a simple layer of security that has minimum user interaction requirements (*ask pin or ask for confirmation*)
+[PREVIOUS](MANETS.md) [NEXT](MANETS_ROUTING.md)

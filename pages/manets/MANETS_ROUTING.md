@@ -1,3 +1,10 @@
+---
+id: MANETS_ROUTING
+aliases: []
+tags: []
+index: 3
+---
+
 # MANET ROUTING
 
 Manet routing is a big challenge cause there are no fixed assumptions that can be made on the network characteristics so a lot of routing protocols where been proposed.
@@ -15,11 +22,11 @@ Manet routing is a big challenge cause there are no fixed assumptions that can b
 | **GEOGRAPHIC** | Usage of knowledge of destination location to perform forwarding                                     |
 | **HYBRID**     | combination of the precedents                                                                        |
 
-Manet routing protocols are **REACTIVE** because the nature of the MANET create 
+Manet routing protocols are **REACTIVE** because the nature of the MANET create
 
 ## FLOODING (level 0 solution)
 
-Simple method of routing with a lot of stupid assumption that allow to extrapolates the problems in man routing 
+Simple method of routing with a lot of stupid assumption that allow to extrapolates the problems in man routing
 
 ```mermaid
 flowchart LR
@@ -35,8 +42,8 @@ a ---> b & c
 b ---> e & f & c
 c ---> f & e
 d ---> g & h
-f ---> d 
-e ---> d 
+f ---> d
+e ---> d
 ```
 
 each node send the packet to all of the nodes in his visibility
@@ -55,3 +62,4 @@ There are a lot of disadvantages of course
 
 - high overhead
 - low reliability
+[PREVIOUS](WIFI_DIRECT.md) [NEXT](DINAMIC_SOURCE_ROUTING.md)

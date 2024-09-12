@@ -1,8 +1,15 @@
+---
+id: PATTERNS
+aliases: []
+tags: []
+index: 3
+---
+
 # PATTERNS
 
 Mobile environment can exploit several patterns for different tasks typologies
 
-## ARCHITECTURAL PATTERNS 
+## ARCHITECTURAL PATTERNS
 
 inherited from non mobile environments, patterns for application's architectures that describes how component should interact
 ### Level-based
@@ -14,7 +21,7 @@ Most frequent pattern in distributed computing: clients use resources and servic
 ### Peer-to-peer
 
 Any node can dynamically play the role of either client or server; functionality could be more or less symmetric
-### Pipeline 
+### Pipeline
 
 Pipeline as chain of processing elements aligned in such a way that output of one is offered as input for the successive one in the chain
 ### Multi-tier
@@ -27,11 +34,11 @@ A common knowledge base (blackboard) is updated iteratively by different knowled
 
 Different nodes publish data to a broker that can be received from different nodes acting as subscribers
 
-other types of patterns specific for mobile nodes are 
-- [COMMUNICATION_PATTERNS](COMMUNICATION_PATTERNS.md) 
+other types of patterns specific for mobile nodes are
+- [COMMUNICATION_PATTERNS](COMMUNICATION_PATTERNS.md)
 - [RESOURCE_MANAGEMENT_PATTERNS](RESOURCE_MANAGEMENT_PATTERNS.md)
 - [DISTRIBUTION_PATTERNS](DISTRIBUTION_PATTERNS.md)
-Tre categorie principali: 
+Tre categorie principali:
 - per la **distribuzione**
 	- [RemoteFacade](RemoteFacade.md)
 	- [DataTransferObj](DataTransferObj.md)
@@ -48,3 +55,4 @@ Tre categorie principali:
 	- [connection factory](connFact.md)
 	- [multiplexed connection](multiplexedConn.md)
 	- [client-initiated connection for push model](clientInit.md)
+[PREVIOUS](MOBILE_MIDDLEWARE_PRINCIPLES.md) [NEXT](DISTRIBUTION_PATTERNS.md)

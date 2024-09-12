@@ -1,3 +1,10 @@
+---
+id: ACTIVE_BAT
+aliases: []
+tags: []
+index: 6
+---
+
 # ACTIVE BAT
 
 positioning system based on the use of RF and ultra sound technologies (US) where a central server triggers a badge via RF communication and the badge sends an US signal that is captured by sensors that compute position
@@ -8,3 +15,4 @@ positioning system based on the use of RF and ultra sound technologies (US) wher
 
 - physical absolute, ti exploits [ToA](BASE_TECHNIQUES.md) to compute position
 - suitable for indoor environments
+[PREVIOUS](NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md) [NEXT](RADAR.md)

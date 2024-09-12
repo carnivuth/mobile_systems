@@ -1,3 +1,10 @@
+---
+id: MOBILITY_IP_NETWORKS
+aliases: []
+tags: []
+index: 1
+---
+
 # MOBILITY IN IP NETWORKS
 
 The ip network infrastructure is not suitable for handling mobile nodes cause:
@@ -10,3 +17,4 @@ there are 2 possible solution to handle the problem:
 
 - **location update** the network infrastructure is informed of the mobile node position
 - **location search** the network infrastructure search and updates the node position
+ [NEXT](HOST_IDENTITY_PROTOCOL.md)

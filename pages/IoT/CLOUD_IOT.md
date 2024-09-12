@@ -1,1 +1,9 @@
+---
+id: CLOUD_IOT
+aliases: []
+tags: []
+---
+
 # CLOUD INFRASTRUCTURE FOR IoT
+# CLOUD INFRASTRUCTURE FOR IoT
+ [NEXT](IOT.md)

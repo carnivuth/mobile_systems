@@ -1,3 +1,10 @@
+---
+id: MESSAGING
+aliases: []
+tags: []
+index: 2
+---
+
 # MESSAGE MANAGEMENT IN MOBILE ENVIRONMENTS
 
 One of the main principles of messages solution in mobile environment is decoupling resources involved in communication, this can be achieved by the use of standard and open formats
@@ -14,7 +21,7 @@ One important key factor is also the possibility to extend the messaging system 
 
 A messaging solution needs to take into account the marshal/unmarshal operations, possibile solutions are:
 
-- marshal/unmarshal code can be generated from the message format specifications (*e.g. Interface Description Language (IDL)*) 
+- marshal/unmarshal code can be generated from the message format specifications (*e.g. Interface Description Language (IDL)*)
 - use of introspection that is more expressive but more expensive at runtime
 
 ## DATA FORMATS
@@ -37,7 +44,7 @@ There are also protocol characteristics that need to be take into account
 
 Also the semantics with witch the communication is handled by the application component is important:
 
-- **blocking vs non blocking semantics**  implemented with promises or callbacks 
+- **blocking vs non blocking semantics**  implemented with promises or callbacks
 - **different level behavior**  the application can perform the role of the listener at the transport layer and not necessary the same role at the application layer
 
 ## LOCATORS
@@ -66,3 +73,4 @@ also QoS politics need to be taken into account, possible solution can be ACK ba
 - Piggy-backed
 
 Also in order delivery semantics can be dropped to improve performance
+[PREVIOUS](SERVICE_DISCOVERY.md) [NEXT](JAVA_MESSAGE_SERVICE.md)

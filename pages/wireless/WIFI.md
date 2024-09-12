@@ -1,3 +1,10 @@
+---
+id: WIFI
+aliases: []
+tags: []
+index: 4
+---
+
 # WIFI
 
 The IEEE 802.11 standard is the most widespread solution for wireless communications, it provides 2 primary configurations
@@ -20,7 +27,7 @@ E((internet))
 A & B -->  E
 ```
 
-- **AD HOC MODE** all nodes are potentially mobile and communicate directly, en example of ad hoc network are [manets](MANETS.canvas) 
+- **AD HOC MODE** all nodes are potentially mobile and communicate directly, en example of ad hoc network are [manets](MANETS.canvas)
 
 ```mermaid
 flowchart LR
@@ -43,3 +50,4 @@ end
 The objective is to cover with wireless connectivity technology wide areas like cities with a mesh network
 
 ![](Pasted%20image%2020240604192831.png)
+[PREVIOUS](CSMA.md) [NEXT](WIMAX.md)

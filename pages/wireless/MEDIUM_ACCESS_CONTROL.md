@@ -1,3 +1,10 @@
+---
+id: MEDIUM_ACCESS_CONTROL
+aliases: []
+tags: []
+index: 2
+---
+
 # MEDIUM ACCESS CONTROL
 
 IEEE defines a section of standards for wireless connectivity technologies at data link layer under the section 802.xx
@@ -18,7 +25,7 @@ end
 higher_layer ~~~ medium_access_control
 ```
 
-## WIRELESS ARCHITECTURES 
+## WIRELESS ARCHITECTURES
 
 There are two possible configuration for a wireless infrastructure:
 
@@ -58,3 +65,4 @@ D  <--> E
 E  <--> B
 end
 ```
+[PREVIOUS](WIRELESS_COMMUNICATION.md) [NEXT](CSMA.md)

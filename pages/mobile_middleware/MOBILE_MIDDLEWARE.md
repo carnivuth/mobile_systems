@@ -1,3 +1,10 @@
+---
+id: MOBILE_MIDDLEWARE
+aliases: []
+tags: []
+index: 1
+---
+
 # MOBILE MIDDLEWARE
 
 Mobile Middleware general definition:
@@ -14,7 +21,7 @@ A Middleware can also address different environment and hardware infrastructures
 
 ## MOBILE VS FIXED MIDDLEWARE
 
-A mobile middleware **has lot of differences to address due to the different deployment environment** 
+A mobile middleware **has lot of differences to address due to the different deployment environment**
 
 - Context dynamically changes
 - Need of decoupling in space and in time
@@ -22,3 +29,4 @@ A mobile middleware **has lot of differences to address due to the different dep
 - provisioning of some level/degree of visibility of running conditions to lower layers
 - partial visibility of location change
 - modifications in the QoS levels currently available
+ [NEXT](MOBILE_MIDDLEWARE_PRINCIPLES.md)

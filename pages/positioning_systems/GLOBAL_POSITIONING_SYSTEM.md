@@ -1,3 +1,10 @@
+---
+id: GLOBAL_POSITIONING_SYSTEM
+aliases: []
+tags: []
+index: 4
+---
+
 # GLOBAL POSITIONING SYSTEM (GPS)
 
 GPS is a positioning system that exploits dedicated hardware (*e.g. satellites*) for improved performance in localization capabilities
@@ -11,3 +18,4 @@ GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achiv
 ## DIFFERENTIAL GPS
 
 to reduce the error range of GPS a base station with a fixed position is used to correct the error in the satellites measures
+[PREVIOUS](MANET_POSITIONING_SYSTEMS.md) [NEXT](NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md)

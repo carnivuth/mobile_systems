@@ -1,3 +1,10 @@
+---
+id: ADHOC_ON_DEMAND_DISTANCE_VECTOR
+aliases: []
+tags: []
+index: 5
+---
+
 # AD HOC ON DEMAND DISTANCE VECTOR
 
 AODV tries to address the problem of the variable sized header of [DSR](DINAMIC_SOURCE_ROUTING.md) by maintain a reduced routing table suitable for manets
@@ -30,7 +37,7 @@ b --> c
 c --> d
 ```
 
-## ROUTE ERROR 
+## ROUTE ERROR
 
 In the route error scenario the node that detects the route error situation informs the other nodes like in [DSR](DYNAMIC%20SOURCE%20ROUTING.md) and they update their routing table, the message is broadcast to the neighbors route error to inform them
 
@@ -42,6 +49,6 @@ Extension that force all nodes to send hello messages to the neighbors in order 
 
 In order to avoid the excessive flooding if an intermediate node has already the route information can respond with  a route reply, this generate some loop problems
 
-### USING DSN TO AVOID LOOPS 
+### USING DSN TO AVOID LOOPS
 
-So in order to avoid loops, an integer value is introduced (DSN) that is incremented with each propagation of a route request packet, if the 
+So in order to avoid loops, an integer value is introduced (DSN) that is incremented with each propagation of a route request packet, if the

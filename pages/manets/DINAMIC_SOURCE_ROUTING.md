@@ -1,3 +1,10 @@
+---
+id: DINAMIC_SOURCE_ROUTING
+aliases: []
+tags: []
+index: 4
+---
+
 # DINAMIC SOURCE ROUTING
 
 DSR is a  reactive routing protocol that exploids floading to get routing informations
@@ -29,7 +36,7 @@ When a node cannot forward the request to the next node in a path the node send 
 
 ## PATH CACHING
 
-a possible optimization is to cache the paths in the intermediate node, this reduce the number of flooding operations and can improve the performance but it also bring the cache invalidation problem to the table  
+a possible optimization is to cache the paths in the intermediate node, this reduce the number of flooding operations and can improve the performance but it also bring the cache invalidation problem to the table
 
 | ADVANTAGES                                                                        | DISADVANTAGES                                                                                                             |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -38,3 +45,4 @@ a possible optimization is to cache the paths in the intermediate node, this red
 | Each discovery can lead to the determination of multiple paths to                 | Necessary mechanisms to avoid RREQ collisions among neighbors                                                             |
 | destination because of intermediaries that reply based on local caches            | Increase of channel conflicts when sending RREP (RREP storm issue; overhearing and local decision based on shortest path) |
 |                                                                                   | RREPs that use stale cache (affecting other caches in cascading)                                                          |
+[PREVIOUS](MANETS_ROUTING.md) [NEXT](ADHOC_ON_DEMAND_DISTANCE_VECTOR.md)

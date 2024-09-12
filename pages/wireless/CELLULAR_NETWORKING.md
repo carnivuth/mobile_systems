@@ -1,3 +1,10 @@
+---
+id: CELLULAR_NETWORKING
+aliases: []
+tags: []
+index: 6
+---
+
 # CELLULAR NETWORKING
 
 Originated from the evolution of telecom solution of communication of mobile devices, based on a grid of low powered antenna for scalability reason, frequencies can be reused in non adjacent cells The architecture is the following:
@@ -57,7 +64,7 @@ Where:
 
 A big problem of cellular networking is to handle mobility of the phones during communication operations, there are various motivation that can cause an handoff procedure to be triggered:
 
-- load balancing 
+- load balancing
 - stronger signal from other BSS cause the node is moving towards them
 
 **the policy is not dictated by the MSC, only the mechanism**
@@ -83,7 +90,7 @@ F --> G
 G --> H
 ```
 
-The principle goal of this procedure it's service continuity so in this context wasting resources is accepted 
+The principle goal of this procedure it's service continuity so in this context wasting resources is accepted
 
 ### HANDOFF PROCEDURE FOR DIFFERENT MSC
 
@@ -103,3 +110,4 @@ In this particular case the call is still routed trough the MSC where it has beg
 | PROACTIVE         | Handoff is started before the node exits the coverage area                                                     |
 | HARD              | The handoff procedure does not allow the mobile node to be connected to multiple BSS in the same time interval |
 | SOFT              | The handoff procedure allow the mobile node to be connected to multiple BSS in the same time interval          |
+[PREVIOUS](WIMAX.md) [NEXT](BLUETOOTH.md)

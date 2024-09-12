@@ -1,3 +1,10 @@
+---
+id: ASYNCHRONOUS_TECHNIQUES
+aliases: []
+tags: []
+index: 4
+---
+
 # ANDROID ASYNCHRONOUS TECHNIQUES
 
 The android platform offers multiple ways to run tasks in concurrency with the main activity
@@ -32,7 +39,7 @@ a service expose a client server interface for application to bind and send requ
 
 ### FOREGROUND SERVICES
 
-more priority than background services but the user must be aware that they exists (*e.g. music players*) 
+more priority than background services but the user must be aware that they exists (*e.g. music players*)
 
 ### INTENT SERVICES
 
@@ -51,7 +58,7 @@ associated with a thread and is message queue, it delivers/handle messages and c
 
 ## ASYNC TASK
 
-It's created in the UI thread and work in a background thread, the **results is published in the UI thread** 
+It's created in the UI thread and work in a background thread, the **results is published in the UI thread**
 
 it accepts 3 parameters:
 
@@ -80,3 +87,4 @@ UI_thread ~~~ background_thread
 ## WHY ONLY ONE THREAD TO MANAGE UI?
 
 The android UI toolkit is not thread safe so manipulation in concurrent threads are not guaranteed to be consistent
+[PREVIOUS](THREADING_MODEL.md) [NEXT](JOB_SCHEDULER.md)

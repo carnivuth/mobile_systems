@@ -1,3 +1,10 @@
+---
+id: CSMA
+aliases: []
+tags: []
+index: 3
+---
+
 # CSMA/CD
 
 The **CSMA/CD** relies on sensing the channel and transmit only when the channel il free
@@ -40,5 +47,6 @@ so the node **A** sends a request to send packet to **B** and wait for a clear t
 this solution limits collisions only to the **rts** and **cts** packets reducing the cost of re transmission but increase the overhead because every communication requires an rtc/cts exchange
 
 
-## TOKEN RING 
+## TOKEN RING
 
+[PREVIOUS](MEDIUM_ACCESS_CONTROL.md) [NEXT](WIFI.md)

@@ -1,3 +1,10 @@
+---
+id: BASE_TECHNIQUES
+aliases: []
+tags: []
+index: 1
+---
+
 # BASE TECHNIQUES
 
 ## DISTANCE COMPUTATION
@@ -20,11 +27,11 @@ $$ToA(ref_1)=ToA(ref_2)$$
 
 ![](Pasted%20image%2020240608180440.png)
 
-### LATERATION 
+### LATERATION
 
 the position is determined by computing distances from 3 reference points
 
-### ANGULATION 
+### ANGULATION
 
 based on the fact that the distance between 2 reference points is known, it computes the position using the Carnot's theorem:
 
@@ -39,13 +46,13 @@ $$
 
 ### PROXIMITY
 
-The current position is determined by the closest reference point to the node, ToA or RSSI can be deployed 
+The current position is determined by the closest reference point to the node, ToA or RSSI can be deployed
 
 ![](Pasted%20image%2020240608181056.png)
 
 ### SCENE ANALYSIS
 
-This is a statistical approach based on the knowledge of the deployment environment and of a dataset of observations made of it (*e.g. RSSI*) 
+This is a statistical approach based on the knowledge of the deployment environment and of a dataset of observations made of it (*e.g. RSSI*)
 
 this approach is composed by two phases
 
@@ -59,3 +66,4 @@ Several things can cause error in position measurement such as:
 - **Non Line of Sight (NLOS)** a node is not in direct visibility
 - **clock skew**  clock are not synchronized
 - **fading** due to obstacle presence
+ [NEXT](TAXONOMY.md)

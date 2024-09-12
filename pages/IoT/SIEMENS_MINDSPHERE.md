@@ -1,3 +1,10 @@
+---
+id: SIEMENS_MINDSPHERE
+aliases: []
+tags: []
+index: 6
+---
+
 # SIEMENS MINDSPHERE PLATFORM
 
 Siemens cloud and edge based solution for IoT
@@ -6,7 +13,7 @@ Siemens cloud and edge based solution for IoT
 
 ### HANDLE CONNECTION TO DEVICES
 
-the mindconnect layer is the one responsible for offering the connection support to the IoT devices, it's an all-in-one hardware/software solution that provides connectivity for the most popular industrial protocols such as 
+the mindconnect layer is the one responsible for offering the connection support to the IoT devices, it's an all-in-one hardware/software solution that provides connectivity for the most popular industrial protocols such as
 
 ### MINDSPHERE GATEWAY
 
@@ -40,3 +47,4 @@ C --gets routes and\n access roules--> D
 - **MindConnect API**: API to send data securely from the shop floor devices to Mindsphere. Only agents that supports HTTP processing, TLS and JSON parsing have the requirements to communicate. It allows also to set the configuration for both the data source from which retrieve the data and the data model to be shared
 
 - **OPC UA PubSub Service**: specific module that provides MQTT- based API to agents to upload data according to OPC UA specification
+[PREVIOUS](AZURE_IOT_PLATFORM.md) [NEXT](EDGEX_IOT_PLATFORM.md)

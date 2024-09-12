@@ -1,3 +1,10 @@
+---
+id: PROXY_HIERARCHICAL_MOBILE_IPV6
+aliases: []
+tags: []
+index: 5
+---
+
 # PROXY HIERARCHICAL MOBILE IPV6
 
 One of the principal problems of [HMIP](PROXY_HIERARCHICAL_MOBILE_IPV6.md)  is that is not transparent to mobile nodes that need to implement it in the kernel space that is hard to push updates, PHMIP resolves this problem, it's meant to be used on limited networks where signals for handoff procedures have minimal costs
@@ -17,3 +24,4 @@ The main components of PHMIP are:
 - **Home Network Prefix** prefix assigned to mobile nodes from LMA
 
 ![](Pasted%20image%2020240608155305.png)
+[PREVIOUS](HIERARCHICAL_MOBILE_IPV6.md) [NEXT](I_TCP.md)

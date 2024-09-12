@@ -1,3 +1,10 @@
+---
+id: IOT_PLATFORMS
+aliases: []
+tags: []
+index: 3
+---
+
 # IoT PLATFORMS
 
 Platforms for interaction with IoT environment, The main objectives are:
@@ -16,3 +23,4 @@ Several solution from different vendors are available, some of them allow edge c
 - [AZURE IOT PLATFORM](AZURE_IOT_PLATFORM.md) cloud based edge capabilities
 -  [EDGEX IOT PLATFORM](EDGEX_IOT_PLATFORM.md) no cloud based, edge capabilities
 - [AWS IOT PLATFORM](AWS_IOT_PLATFORM.md) cloud based no edge capabilities
+[PREVIOUS](SCADA.md) [NEXT](AWS_IOT_PLATFORM.md)

@@ -1,3 +1,10 @@
+---
+id: TAXONOMY
+aliases: []
+tags: []
+index: 2
+---
+
 # TAXONOMY
 
 Positioning systems can be classified in different categories
@@ -15,7 +22,7 @@ Positioning systems can be classified in different categories
 
 There are several characteristics to aim for a positioning system
 
-- **ACCURACY** the error range of a measurements 
+- **ACCURACY** the error range of a measurements
 - **PRECISION** the trust degree of a measurements
 - **SCALABILITY** how much the positioning system can handle in terms of area of coverage and number of nodes
 - **COSTS** cost of maintenance deployment time, client capabilities
@@ -31,3 +38,4 @@ C[deployment environment]
 D((positioning system\n capabilities))
 A & B & C --> D
 ```
+[PREVIOUS](BASE_TECHNIQUES.md) [NEXT](MANET_POSITIONING_SYSTEMS.md)

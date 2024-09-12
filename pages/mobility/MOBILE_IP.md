@@ -1,3 +1,10 @@
+---
+id: MOBILE_IP
+aliases: []
+tags: []
+index: 3
+---
+
 # MOBILE IP
 
 IP based protocol to handle mobility of the connections, one of the goals of mobile IP is to not modify the IP stack but works on top of that trying to be more transparent
@@ -10,8 +17,8 @@ the mobile IP relies on 3 entities
 
 The communication between the HA and FA is done trough IP in IP tunneling
 
-In order to keep track of visitor nodes on his network the FA maintains a visitor table, The home agent maintains a table with the last **CoA** given from the mobile 
-## TRIANGULAR ROUTING 
+In order to keep track of visitor nodes on his network the FA maintains a visitor table, The home agent maintains a table with the last **CoA** given from the mobile
+## TRIANGULAR ROUTING
 
 This solution falls on the problem of triangular routing
 
@@ -49,3 +56,4 @@ C((MH))
 D((CH))
 D --> A --> B --> C --> B --> A --> D
 ```
+[PREVIOUS](HOST_IDENTITY_PROTOCOL.md) [NEXT](HIERARCHICAL_MOBILE_IPV6.md)

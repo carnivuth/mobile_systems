@@ -1,3 +1,10 @@
+---
+id: SCADA
+aliases: []
+tags: []
+index: 2
+---
+
 # SUPERVISORY CONTROL AND DATA ACQUISITION (SCADA)
 
 system for production line monitory and control created Before IoT solution that relies on a centralized architecture and periodic data reading to reduce the need of human intervention
@@ -15,3 +22,4 @@ system for production line monitory and control created Before IoT solution that
 - extensible, but within the same scope, (*e.g., an additional sensor in the same machine or an additional machine in the same plant*)
 - lack of standards, difficult to maintain/evolve
 - usually no interoperability (horizontal/vertical)
+[PREVIOUS](IOT.md) [NEXT](IOT_PLATFORMS.md)

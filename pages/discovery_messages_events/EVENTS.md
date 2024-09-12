@@ -1,4 +1,11 @@
-# EVENTS 
+---
+id: EVENTS
+aliases: []
+tags: []
+index: 6
+---
+
+# EVENTS
 
 Events can be defined as temporary constrained massages that needs to be processed as quickly as possible
 
@@ -64,7 +71,7 @@ The more sophisticated routing strategies show problems in the un-subscription p
 
 Filters can be implemented at different levels:
 
-- **Channel/topic-based** depending on the channel 
+- **Channel/topic-based** depending on the channel
 - **Subject-based** depending on event subject
 - **Header-based** depending on a set of fields. (*For example, SOAP supports header-based routing for its messages*)
 - **Content-based** possibly depending on the whole message content. Higher expressive power, higher costs
@@ -114,7 +121,7 @@ Three possible specification for message storing
 
 ## GENERAL EVENT NOTIFICATION ARCHITECTURE (GENA)
 
-Primary used solution in [UPnP](SERVICE_DISCOVERY.md#UNIVERSAL%20PLUG%20AND%20PLAY%20(UPnP)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification 
+Primary used solution in [UPnP](SERVICE_DISCOVERY.md#UNIVERSAL%20PLUG%20AND%20PLAY%20(UPnP)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification
 
 ```xml
 NOTIFY delivery path HTTP/1.1
@@ -131,3 +138,4 @@ SEQ: event key
 	Other (possible) names of variable and associated values
 </e:propertyset>
 ```
+[PREVIOUS](EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)

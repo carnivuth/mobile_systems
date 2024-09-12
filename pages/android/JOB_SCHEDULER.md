@@ -1,3 +1,10 @@
+---
+id: JOB_SCHEDULER
+aliases: []
+tags: []
+index: 5
+---
+
 # JOB SCHEDULER
 
 Element that allow multiple background tasks to be grouped together, in order to minimize battery drain, is based on 3 components
@@ -6,7 +13,7 @@ Element that allow multiple background tasks to be grouped together, in order to
 - **JobInfo** Builder pattern to set conditions for task
 - **JobScheduler** Schedule and cancel tasks, launch service
 
-the `JobService` class relies on 2 methods that are called on the main thread `onStartJob()` and `onStopJob()` 
+the `JobService` class relies on 2 methods that are called on the main thread `onStartJob()` and `onStopJob()`
 
 here an example using [async tasks](ASYNCHRONOUS_TECHNIQUES.md#ASYNC%20TASK):
 
@@ -26,10 +33,11 @@ public class MyJobService extends JobService {
 	}
 }
 ```
-  
+
   There are also parameter that can be set to influence the scheduling of the job:
-  
+
 - minimum latency
 - period
 - network type
 - if task requires the device to be plugged
+[PREVIOUS](ASYNCHRONOUS_TECHNIQUES.md) [NEXT](ALARMS.md)

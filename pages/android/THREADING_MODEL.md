@@ -1,3 +1,10 @@
+---
+id: THREADING_MODEL
+aliases: []
+tags: []
+index: 3
+---
+
 # ANDROID THREADING MODEL
 
 Android follow a particular threadin model that can be divided in 2 levels, at the kernel level application are executed in different Dalvik VM's and the application is composed by a single java thread that runs the activities
@@ -39,3 +46,4 @@ Android defines different group threads with different scheduling priorities
 - visible
 - service
 - background
+[PREVIOUS](ACTIVITY.md) [NEXT](ASYNCHRONOUS_TECHNIQUES.md)

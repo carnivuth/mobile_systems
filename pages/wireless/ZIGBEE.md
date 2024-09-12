@@ -1,3 +1,10 @@
+---
+id: ZIGBEE
+aliases: []
+tags: []
+index: 8
+---
+
 # ZIGBEE (IEEE 802.15.4)
 
 Protocol optimized for some vertical domains IOT oriented where [bluetooth](BLUETOOTH.md) fails like
@@ -30,3 +37,4 @@ The zigbee protocol offers to possible solution for physical channel management
 
 - [CSMA/CA](CSMA.md#CSMA/CA%20VARIANT)
 - Beacon enabled network where the **PAN COORDINATOR** sends periodic messages, this solution is similar to what [BLUETOOTH](BLUETOOTH.md) does, is better suited for sensors communication
+[PREVIOUS](BLUETOOTH.md)

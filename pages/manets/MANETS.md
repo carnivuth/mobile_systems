@@ -1,3 +1,10 @@
+---
+id: MANETS
+aliases: []
+tags: []
+index: 1
+---
+
 # MANET (MOBILE AD HOC NETWORK)
 
 Manets are network with the following caracteristics
@@ -25,3 +32,4 @@ Given the nature of MANETS a lot of challenges comes up
 - Easy “snooping” of wireless transmissions (associated security issues)
 
 
+ [NEXT](WIFI_DIRECT.md)

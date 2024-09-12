@@ -1,3 +1,10 @@
+---
+id: SERVICE_DISCOVERY
+aliases: []
+tags: []
+index: 1
+---
+
 # SERVICE DISCOVERY
 Service discovery is the procedure that allow an application to search for available services in the locality of the application node, a service discovery solution must meet the following requirements
 
@@ -33,9 +40,9 @@ service_broker --> service_provider
 
 The protocol relies on service providers registering a proxy object to the service broker that can be received by clients in the discovery phase in order to communicate with the service provider
 
-Failures are managed trough a **lease** mechanism where the resource assigned to client has a lease time, also the registration phase is managed with lease 
+Failures are managed trough a **lease** mechanism where the resource assigned to client has a lease time, also the registration phase is managed with lease
 
-The protocol supports scalability by allowing the service providers to subscribe to multiple service brokers and 
+The protocol supports scalability by allowing the service providers to subscribe to multiple service brokers and
 
 ### STUB SKEL LIMITATIONS
 
@@ -133,3 +140,4 @@ sequenceDiagram
     Device->>ControlPoint: Notification with GENA in unicast
 ```
 
+ [NEXT](MESSAGING.md)

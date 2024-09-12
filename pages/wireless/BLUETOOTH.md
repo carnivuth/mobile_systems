@@ -1,16 +1,23 @@
+---
+id: BLUETOOTH
+aliases: []
+tags: []
+index: 7
+---
+
 # BLUETOOTH (IEEE 802.15.1)
 
 Protocol for PAN communication, based on 2.4 frequencies band,it aims to the following goals:
 
 - low cost device
-- low distance communication 
+- low distance communication
 - voice and data management
 
 This comes with the cost of lower bandwidth so lower data transfer rate
 
-## PROTOCOL STACK 
+## PROTOCOL STACK
 
-Bluetooth is a complex stack of protocols at different layer and devices can implement only a subset of functionality and not all 
+Bluetooth is a complex stack of protocols at different layer and devices can implement only a subset of functionality and not all
 
 ![](Pasted%20image%2020240312123425.png)
 
@@ -24,13 +31,13 @@ A[MASTER]
 B[node]
 C[node]
 D[node]
-A --> B & D & C 
+A --> B & D & C
 ```
 
 Where:
 
 - there is always a **unique master node**
-- maximum of 7 active nodes 
+- maximum of 7 active nodes
 - communication happens on a single channel using [frequency hopping](https://it.wikipedia.org/wiki/Frequency-hopping_spread_spectrum)
 
 ## PREPARATION PHASE
@@ -73,7 +80,7 @@ The master decide which node can communicate, the master can communicate in all 
 
 SCO packets are sent in pre-allocated time slots, in order to guarantee a fixed bandwidth (must have for audio streaming applications)
 
-In order to avoid the consumption of all time slots the master can establish 3 SCO channels at the same time 
+In order to avoid the consumption of all time slots the master can establish 3 SCO channels at the same time
 
 In this mode re transmissions are not allowed
 ### ACL CHANNELS
@@ -89,7 +96,7 @@ In this mode retransmissions are allowed
 Bluetooth supports communication between PICO-NETs if the range allows it
 
 ```mermaid
-flowchart TD 
+flowchart TD
 subgraph piconet1
 A[1]
 B[2]
@@ -102,7 +109,7 @@ F[6]
 end
 A <--> B & C
 D <--> E & F
-A <--> D 
+A <--> D
 ```
 
 In this configuration a node for each net is selected as the gateway that can forward traffic to the other net. This is a possibility allowed by the protocol but it's not implemented for performance reasons
@@ -126,3 +133,4 @@ All **BLE** devices implements the generic attribute (GATT) profile
 | multi node communication                    | point to point communication only                           |
 | no discovery needed                         | need of discovery phase in order to communicate with a node |
 | communication can be done in broadcast mode | no efficient broadcast support                              |
+[PREVIOUS](CELLULAR_NETWORKING.md) [NEXT](ZIGBEE.md)

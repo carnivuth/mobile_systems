@@ -1,10 +1,17 @@
+---
+id: MOBILE_MIDDLEWARE_PRINCIPLES
+aliases: []
+tags: []
+index: 2
+---
+
 # MOBILE MIDDLEWARE PRINCIPLES
 
 Mobile middleware follow different sets of principles that comes with the multiple environments where a mobile nodes needs to operate
 ## INTERNET PRINCIPLES
 ### End-to-End Principle
 
-The opportunity to maintain state and intelligence only on network borders (edges). Today in real scenarios this principle is violated frequently: firewalls, Network Address Traversal,caches for Web content. 
+The opportunity to maintain state and intelligence only on network borders (edges). Today in real scenarios this principle is violated frequently: firewalls, Network Address Traversal,caches for Web content.
 
 ### Robustness Principle
 
@@ -27,7 +34,7 @@ Usage of the many techniques developed in web scenarios to manage the state stor
 
 ### Service Oriented Architecture (SOA)
 
-Develop software architectures structured around business process where the components are minimal and loosely coupled in order to be interchangeable and exploits: 
+Develop software architectures structured around business process where the components are minimal and loosely coupled in order to be interchangeable and exploits:
 
  - Re-usability
  - granularity
@@ -54,11 +61,12 @@ with info propagated in both directions
 ### Merging of adjacent layers
 
 allows the combination of different adjacent layers into a single super-layer
-### Coupling 
+### Coupling
 
 with no addition of new interfaces. Two or more layers are coupled at design time in a finalized way, with no possibility of maintaining independency/abstraction from lower layer
-### Vertical calibration 
+### Vertical calibration
 
 Usually to achieve layers-joint optimization of the configuration of parameters (*joint tuning*) and to obtain better overall performance
 
 ![](Pasted%20image%2020240611101358.png)
+[PREVIOUS](MOBILE_MIDDLEWARE.md) [NEXT](PATTERNS.md)

@@ -1,3 +1,10 @@
+---
+id: DISTRIBUTION_PATTERNS
+aliases: []
+tags: []
+index: 4
+---
+
 # DISTRIBUTION PATTERNS
 
 Patterns that rule the way resources are distributed and access around the network at runtime
@@ -14,7 +21,7 @@ subgraph remote_facade
 end
 subgraph map_web_services
 end
-mobile_device --addresses--> remote_facade 
+mobile_device --addresses--> remote_facade
 remote_facade <--complex interactions--> map_web_services
 remote_facade --directions--> mobile_device
 ```
@@ -68,3 +75,4 @@ end
 ### CONS
 
 - not to much scalable since a single node as the responsibility for communication
+[PREVIOUS](PATTERNS.md) [NEXT](RESOURCE_MANAGEMENT_PATTERNS.md)

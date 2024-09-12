@@ -1,3 +1,10 @@
+---
+id: JAVA_MESSAGE_SERVICE
+aliases: []
+tags: []
+index: 3
+---
+
 # JAVA MESSAGE SERVICE (JMS)
 
 Java solution for messaging systems, key features are:
@@ -55,3 +62,4 @@ JMS allow to specify store semantics of a message:
 
 - **PERSISTENT** messages are guaranteed that are saved at the JMS provider side
 - **NON_PERSISTENT** messages are not saved on persistent storage
+[PREVIOUS](MESSAGING.md) [NEXT](CORBA_MESSAGING.md)

@@ -1,6 +1,13 @@
+---
+id: HIERARCHICAL_MOBILE_IPV6
+aliases: []
+tags: []
+index: 4
+---
+
 # HIERARCHICAL MOBILE IPV6 (HMIP)
 
-This solution is based on a hierarchical structure of the infrastructure where foreign agents are associated with a foreign agent proxy (mobile anchor point MAP) that manages handoff procedures between foreign agents 
+This solution is based on a hierarchical structure of the infrastructure where foreign agents are associated with a foreign agent proxy (mobile anchor point MAP) that manages handoff procedures between foreign agents
 
 ```mermaid
 flowchart BT
@@ -20,9 +27,10 @@ H & I --> D
 J --> E
 ```
 
-the handoff can be 
+the handoff can be
 
 - **local subnet handoff** local to a MAP
 - **MAP domain handoff** between to different MAPs
 
 The mobile nodes organizes themselves in MAPS dynamically based on **service rate** and **mobility rate**
+[PREVIOUS](MOBILE_IP.md) [NEXT](PROXY_HIERARCHICAL_MOBILE_IPV6.md)

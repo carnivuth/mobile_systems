@@ -10,5 +10,5 @@
   "showInlineTitle": false,
   "vimMode": true,
   "showLineNumber": true,
-  "showRibbon": true
+  "showRibbon": false
 }

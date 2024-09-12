@@ -1,5 +1,10 @@
 {
   "accentColor": "",
   "nativeMenus": true,
-  "theme": "system"
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "prev_next"
+  ],
+  "cssTheme": "Minimal",
+  "theme": "obsidian"
 }

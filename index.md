@@ -1,4 +1,4 @@
-# Mobile Systems
+# MOBILE SYSTEMS
 ## CONTENTS
 - [ANDROID_PLATFORM](pages/android/ANDROID_PLATFORM.md)
 - [SERVICE_DISCOVERY](pages/discovery_messages_events/SERVICE_DISCOVERY.md)

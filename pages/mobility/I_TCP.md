@@ -34,5 +34,4 @@ The handoff procedure is dependent on the [mobile ip **one**](MOBILE_IP.md), whe
 - Breaks the end to end principle for witch only the endpoint of the communication are aware of the communication channel
 - the middle node maintains state
 
-
-[PREVIOUS](PROXY_HIERARCHICAL_MOBILE_IPV6.md)
+[PREVIOUS](pages/mobility/PROXY_HIERARCHICAL_MOBILE_IPV6.md) [NEXT](pages/mobile_middleware/MOBILE_MIDDLEWARE.md)

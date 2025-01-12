@@ -47,4 +47,4 @@ Android defines different group threads with different scheduling priorities
 - service
 - background
 
-[PREVIOUS](ACTIVITY.md) [NEXT](ASYNCHRONOUS_TECHNIQUES.md)
+[PREVIOUS](pages/android/ACTIVITY.md) [NEXT](pages/android/ASYNCHRONOUS_TECHNIQUES.md)

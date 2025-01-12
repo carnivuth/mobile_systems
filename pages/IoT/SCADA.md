@@ -23,4 +23,4 @@ system for production line monitory and control created Before IoT solution that
 - lack of standards, difficult to maintain/evolve
 - usually no interoperability (horizontal/vertical)
 
-[PREVIOUS](IOT.md) [NEXT](IOT_PLATFORMS.md)
+[PREVIOUS](pages/IoT/IOT.md) [NEXT](pages/IoT/IOT_PLATFORMS.md)

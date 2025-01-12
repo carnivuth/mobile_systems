@@ -19,4 +19,4 @@ GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achiv
 
 to reduce the error range of GPS a base station with a fixed position is used to correct the error in the satellites measures
 
-[PREVIOUS](MANET_POSITIONING_SYSTEMS.md) [NEXT](NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md)
+[PREVIOUS](pages/positioning_systems/MANET_POSITIONING_SYSTEMS.md) [NEXT](pages/positioning_systems/NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md)

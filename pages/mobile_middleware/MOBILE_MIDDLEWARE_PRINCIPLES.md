@@ -70,4 +70,4 @@ Usually to achieve layers-joint optimization of the configuration of parameters 
 
 ![](Pasted%20image%2020240611101358.png)
 
-[PREVIOUS](MOBILE_MIDDLEWARE.md) [NEXT](PATTERNS.md)
+[PREVIOUS](pages/mobile_middleware/MOBILE_MIDDLEWARE.md) [NEXT](pages/mobile_middleware/PATTERNS.md)

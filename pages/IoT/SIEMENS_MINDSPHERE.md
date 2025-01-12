@@ -48,4 +48,4 @@ C --gets routes and\n access roules--> D
 
 - **OPC UA PubSub Service**: specific module that provides MQTT- based API to agents to upload data according to OPC UA specification
 
-[PREVIOUS](AZURE_IOT_PLATFORM.md) [NEXT](EDGEX_IOT_PLATFORM.md)
+[PREVIOUS](pages/IoT/AZURE_IOT_PLATFORM.md) [NEXT](pages/IoT/EDGEX_IOT_PLATFORM.md)

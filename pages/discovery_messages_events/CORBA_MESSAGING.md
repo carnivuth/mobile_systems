@@ -37,4 +37,4 @@ voidpollsomma (out int success, out int somma)
 
 ![](Pasted%20image%2020240616160048.png)
 
-[PREVIOUS](JAVA_MESSAGE_SERVICE.md) [NEXT](EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)
+[PREVIOUS](pages/discovery_messages_events/JAVA_MESSAGE_SERVICE.md) [NEXT](pages/discovery_messages_events/EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)

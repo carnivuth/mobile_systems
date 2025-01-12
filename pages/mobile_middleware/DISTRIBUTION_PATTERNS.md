@@ -76,4 +76,4 @@ end
 
 - not to much scalable since a single node as the responsibility for communication
 
-[PREVIOUS](PATTERNS.md) [NEXT](RESOURCE_MANAGEMENT_PATTERNS.md)
+[PREVIOUS](pages/mobile_middleware/PATTERNS.md) [NEXT](pages/mobile_middleware/RESOURCE_MANAGEMENT_PATTERNS.md)

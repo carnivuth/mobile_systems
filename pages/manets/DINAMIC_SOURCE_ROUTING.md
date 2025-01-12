@@ -46,4 +46,4 @@ a possible optimization is to cache the paths in the intermediate node, this red
 | destination because of intermediaries that reply based on local caches            | Increase of channel conflicts when sending RREP (RREP storm issue; overhearing and local decision based on shortest path) |
 |                                                                                   | RREPs that use stale cache (affecting other caches in cascading)                                                          |
 
-[PREVIOUS](MANETS_ROUTING.md) [NEXT](ADHOC_ON_DEMAND_DISTANCE_VECTOR.md)
+[PREVIOUS](pages/manets/MANETS_ROUTING.md) [NEXT](pages/manets/ADHOC_ON_DEMAND_DISTANCE_VECTOR.md)

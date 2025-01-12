@@ -67,4 +67,4 @@ Several things can cause error in position measurement such as:
 - **clock skew**  clock are not synchronized
 - **fading** due to obstacle presence
 
- [NEXT](TAXONOMY.md)
+[PREVIOUS](pages/manets/CLUSTERING.md) [NEXT](pages/positioning_systems/TAXONOMY.md)

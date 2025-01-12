@@ -15,4 +15,4 @@ One of the improvements over [RADAR](RADAR.md) is the rail tracking principle th
 
 In the ekahau solution nodes ask to be located at the central server
 
-[PREVIOUS](RADAR.md) [NEXT](MULTIPLE_POSITIONING_SYSTEMS_SOLUTIONS.md)
+[PREVIOUS](pages/positioning_systems/RADAR.md) [NEXT](pages/positioning_systems/MULTIPLE_POSITIONING_SYSTEMS_SOLUTIONS.md)

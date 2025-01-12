@@ -139,4 +139,4 @@ SEQ: event key
 </e:propertyset>
 ```
 
-[PREVIOUS](EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)
+[PREVIOUS](pages/discovery_messages_events/EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)

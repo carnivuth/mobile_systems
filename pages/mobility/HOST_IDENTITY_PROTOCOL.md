@@ -29,4 +29,4 @@ end
 B --> HIP
 ```
 
-[PREVIOUS](MOBILITY_IP_NETWORKS.md) [NEXT](MOBILE_IP.md)
+[PREVIOUS](pages/mobility/MOBILITY_IP_NETWORKS.md) [NEXT](pages/mobility/MOBILE_IP.md)

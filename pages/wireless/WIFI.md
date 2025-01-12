@@ -51,4 +51,4 @@ The objective is to cover with wireless connectivity technology wide areas like 
 
 ![](Pasted%20image%2020240604192831.png)
 
-[PREVIOUS](CSMA.md) [NEXT](WIMAX.md)
+[PREVIOUS](pages/wireless/CSMA.md) [NEXT](pages/wireless/WIMAX.md)

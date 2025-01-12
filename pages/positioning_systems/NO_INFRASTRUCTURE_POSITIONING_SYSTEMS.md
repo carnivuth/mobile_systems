@@ -26,4 +26,4 @@ One possible solution is to place Bluetooth devices at the point of interests (P
 
 This method allow different levels of privacy for the device that can scan in silent mode the PoI
 
-[PREVIOUS](GLOBAL_POSITIONING_SYSTEM.md) [NEXT](ACTIVE_BAT.md)
+[PREVIOUS](pages/positioning_systems/GLOBAL_POSITIONING_SYSTEM.md) [NEXT](pages/positioning_systems/ACTIVE_BAT.md)

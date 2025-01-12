@@ -63,4 +63,4 @@ There are a lot of disadvantages of course
 - high overhead
 - low reliability
 
-[PREVIOUS](WIFI_DIRECT.md) [NEXT](DINAMIC_SOURCE_ROUTING.md)
+[PREVIOUS](pages/manets/WIFI_DIRECT.md) [NEXT](pages/manets/DINAMIC_SOURCE_ROUTING.md)

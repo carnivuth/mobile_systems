@@ -22,4 +22,4 @@ Pattern that decouple connection management and application business code by hid
 
 Pattern to allow multiple logic connections to travel on a single level 4 physical connection in order to improve performance instead of creating multiple channels (*e.g. SCTP stream control transfer protocol for multimedia streaming*)
 
-[PREVIOUS](RESOURCE_MANAGEMENT_PATTERNS.md)
+[PREVIOUS](pages/mobile_middleware/RESOURCE_MANAGEMENT_PATTERNS.md) [NEXT](pages/android/ANDROID_PLATFORM.md)

@@ -111,4 +111,4 @@ In this particular case the call is still routed trough the MSC where it has beg
 | HARD              | The handoff procedure does not allow the mobile node to be connected to multiple BSS in the same time interval |
 | SOFT              | The handoff procedure allow the mobile node to be connected to multiple BSS in the same time interval          |
 
-[PREVIOUS](WIMAX.md) [NEXT](BLUETOOTH.md)
+[PREVIOUS](pages/wireless/WIMAX.md) [NEXT](pages/wireless/BLUETOOTH.md)

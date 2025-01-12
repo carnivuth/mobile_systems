@@ -140,5 +140,4 @@ sequenceDiagram
     Device->>ControlPoint: Notification with GENA in unicast
 ```
 
-
- [NEXT](MESSAGING.md)
+[PREVIOUS](pages/IoT/COAP.md) [NEXT](pages/discovery_messages_events/MESSAGING.md)

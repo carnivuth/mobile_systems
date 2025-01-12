@@ -2,7 +2,7 @@
 id: MOBILITY_IP_NETWORKS
 aliases: []
 tags: []
-index: 1
+index: 26
 ---
 
 # MOBILITY IN IP NETWORKS

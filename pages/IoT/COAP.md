@@ -2,7 +2,7 @@
 id: COAP
 aliases: []
 tags: []
-index: 14
+index: 58
 ---
 
 # CONSTRAINED APPLICATION PROTOCOL (COAP)

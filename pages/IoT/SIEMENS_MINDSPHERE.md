@@ -2,7 +2,7 @@
 id: SIEMENS_MINDSPHERE
 aliases: []
 tags: []
-index: 6
+index: 50
 ---
 
 # SIEMENS MINDSPHERE PLATFORM

@@ -2,7 +2,7 @@
 id: AWS_IOT_PLATFORM
 aliases: []
 tags: []
-index: 4
+index: 48
 ---
 
 # AMAZON WEB SERVICES IoT PLATFORM

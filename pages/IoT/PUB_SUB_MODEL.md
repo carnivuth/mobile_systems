@@ -2,7 +2,7 @@
 id: PUB_SUB_MODEL
 aliases: []
 tags: []
-index: 10
+index: 54
 ---
 
 # PUB/SUB MODEL

@@ -2,7 +2,7 @@
 id: AZURE_IOT_PLATFORM
 aliases: []
 tags: []
-index: 5
+index: 49
 ---
 
 # AZURE IoT PLATFORM

@@ -2,7 +2,7 @@
 id: GREEDY_PERIMETER_STATELESS_ROUTING
 aliases: []
 tags: []
-index: 6
+index: 14
 ---
 
 # GREEDY PERIMETER STATELESS ROUTING

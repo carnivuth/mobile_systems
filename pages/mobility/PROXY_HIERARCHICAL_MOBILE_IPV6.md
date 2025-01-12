@@ -2,7 +2,7 @@
 id: PROXY_HIERARCHICAL_MOBILE_IPV6
 aliases: []
 tags: []
-index: 5
+index: 30
 ---
 
 # PROXY HIERARCHICAL MOBILE IPV6

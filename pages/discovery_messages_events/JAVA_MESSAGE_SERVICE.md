@@ -2,7 +2,7 @@
 id: JAVA_MESSAGE_SERVICE
 aliases: []
 tags: []
-index: 3
+index: 61
 ---
 
 # JAVA MESSAGE SERVICE (JMS)

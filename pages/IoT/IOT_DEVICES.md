@@ -2,7 +2,7 @@
 id: IOT_DEVICES
 aliases: []
 tags: []
-index: 8
+index: 52
 ---
 
 # IoT DEVICES

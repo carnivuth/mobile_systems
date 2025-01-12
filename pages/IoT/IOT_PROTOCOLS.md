@@ -2,7 +2,7 @@
 id: IOT_PROTOCOLS
 aliases: []
 tags: []
-index: 9
+index: 53
 ---
 
 # IoT PROTOCOLS

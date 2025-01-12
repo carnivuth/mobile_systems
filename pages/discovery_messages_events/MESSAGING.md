@@ -2,7 +2,7 @@
 id: MESSAGING
 aliases: []
 tags: []
-index: 2
+index: 60
 ---
 
 # MESSAGE MANAGEMENT IN MOBILE ENVIRONMENTS

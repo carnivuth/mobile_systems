@@ -2,7 +2,7 @@
 id: IOT
 aliases: []
 tags: []
-index: 1
+index: 45
 ---
 
 # INTERNET OF THINGS

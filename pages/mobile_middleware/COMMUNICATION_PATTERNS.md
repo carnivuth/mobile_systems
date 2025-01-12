@@ -2,7 +2,7 @@
 id: COMMUNICATION_PATTERNS
 aliases: []
 tags: []
-index: 6
+index: 37
 ---
 
 # COMMUNICATION PATTERNS

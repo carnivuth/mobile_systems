@@ -2,7 +2,7 @@
 id: ANDROID_PLATFORM
 aliases: []
 tags: []
-index: 1
+index: 38
 ---
 
 # ANDROID PLATFORM

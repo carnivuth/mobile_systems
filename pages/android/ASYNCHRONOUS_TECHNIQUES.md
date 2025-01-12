@@ -2,7 +2,7 @@
 id: ASYNCHRONOUS_TECHNIQUES
 aliases: []
 tags: []
-index: 4
+index: 41
 ---
 
 # ANDROID ASYNCHRONOUS TECHNIQUES

@@ -2,7 +2,7 @@
 id: EDGEX_IOT_PLATFORM
 aliases: []
 tags: []
-index: 7
+index: 51
 ---
 
 # EDGEX FOUNDRY

@@ -2,7 +2,7 @@
 id: NO_INFRASTRUCTURE_POSITIONING_SYSTEMS
 aliases: []
 tags: []
-index: 5
+index: 21
 ---
 
 # NO INFRASTRUCTURE POSITIONING SYSTEMS

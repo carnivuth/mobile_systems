@@ -2,7 +2,7 @@
 id: IOT_PLATFORMS
 aliases: []
 tags: []
-index: 3
+index: 47
 ---
 
 # IoT PLATFORMS

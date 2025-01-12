@@ -2,7 +2,7 @@
 id: HIERARCHICAL_MOBILE_IPV6
 aliases: []
 tags: []
-index: 4
+index: 29
 ---
 
 # HIERARCHICAL MOBILE IPV6 (HMIP)

@@ -2,7 +2,7 @@
 id: SOCKETS
 aliases: []
 tags: []
-index: 7
+index: 44
 ---
 
 # SOCKETS AND NETWORKING IN ANDROID

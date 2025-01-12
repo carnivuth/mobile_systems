@@ -2,7 +2,7 @@
 id: DISTRIBUTION_PATTERNS
 aliases: []
 tags: []
-index: 4
+index: 35
 ---
 
 # DISTRIBUTION PATTERNS

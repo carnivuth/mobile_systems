@@ -2,7 +2,7 @@
 id: BASE_TECHNIQUES
 aliases: []
 tags: []
-index: 1
+index: 17
 ---
 
 # BASE TECHNIQUES

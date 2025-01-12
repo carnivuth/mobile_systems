@@ -2,7 +2,7 @@
 id: MOBILE_MIDDLEWARE_PRINCIPLES
 aliases: []
 tags: []
-index: 2
+index: 33
 ---
 
 # MOBILE MIDDLEWARE PRINCIPLES

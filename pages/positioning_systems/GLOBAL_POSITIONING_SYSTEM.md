@@ -2,7 +2,7 @@
 id: GLOBAL_POSITIONING_SYSTEM
 aliases: []
 tags: []
-index: 4
+index: 20
 ---
 
 # GLOBAL POSITIONING SYSTEM (GPS)

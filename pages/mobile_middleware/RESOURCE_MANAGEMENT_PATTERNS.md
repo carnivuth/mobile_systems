@@ -2,7 +2,7 @@
 id: RESOURCE_MANAGEMENT_PATTERNS
 aliases: []
 tags: []
-index: 5
+index: 36
 ---
 
 # RESOURCE MANAGEMENT PATTERNS

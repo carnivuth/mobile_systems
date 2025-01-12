@@ -2,7 +2,7 @@
 id: PUB_SUB_PROTOCOLS
 aliases: []
 tags: []
-index: 11
+index: 55
 ---
 
 # PUB/SUB PROTOCOLS

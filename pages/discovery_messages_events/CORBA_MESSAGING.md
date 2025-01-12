@@ -2,7 +2,7 @@
 id: CORBA_MESSAGING
 aliases: []
 tags: []
-index: 4
+index: 62
 ---
 
 # [CORBA](https://www.corba.org/) MESSAGING

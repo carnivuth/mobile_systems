@@ -2,7 +2,7 @@
 id: MANET_POSITIONING_SYSTEMS
 aliases: []
 tags: []
-index: 3
+index: 19
 ---
 
 # MANET POSITIONING SYSTEMS

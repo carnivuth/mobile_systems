@@ -2,7 +2,7 @@
 id: SCADA
 aliases: []
 tags: []
-index: 2
+index: 46
 ---
 
 # SUPERVISORY CONTROL AND DATA ACQUISITION (SCADA)

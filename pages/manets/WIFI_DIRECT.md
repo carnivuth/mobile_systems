@@ -2,7 +2,7 @@
 id: WIFI_DIRECT
 aliases: []
 tags: []
-index: 2
+index: 10
 ---
 
 # WIFI DIRECT

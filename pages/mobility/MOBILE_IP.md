@@ -2,7 +2,7 @@
 id: MOBILE_IP
 aliases: []
 tags: []
-index: 3
+index: 28
 ---
 
 # MOBILE IP
